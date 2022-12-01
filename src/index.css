@@ -1,31 +1,67 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+    --color-primary: #f9a418;
+    --color-white: #ffffff;
+    --color-font-primary: #000000;
+    --color-font-secondary: #1f1f1f;
+    --left-margin: 15rem;
+    --right-margin: 15rem;
+    --font-size: 16 * 0.625;
+    --color-description: #494949;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+html {
+    scroll-behavior: smooth;
+    font-family: "sf-pro-text", sans-serif;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+    overflow-x: hidden;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
+.header {
+    position: relative;
+}
+
+@font-face {
+    font-family: "Gotham-nights";
+    src: url("./assets/fonts/Gotham\ Nights.otf");
+}
+
+@font-face {
+    font-family: "Gotham-nights-italic";
+    src: url("./assets/fonts/Gotham\ Nights\ Italic.otf");
+}
+
+@font-face {
+    font-family: "Gotham-nights-bold";
+    src: url("./assets/fonts/Gotham\ Nights\ Bold.otf");
+}
+
+@font-face {
+    font-family: "Gotham-nights-bold-italic";
+    src: url("./assets/fonts/Gotham\ Nights\ Bold\ Italic.otf");
+}
+
+@font-face {
+    font-family: "sf-pro-display-semi";
+    src: url("./assets/fonts/SF-Pro-Display-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "sf-pro-text";
+    src: url("./assets/fonts/SF-Pro-Text-Regular.otf");
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
 }
