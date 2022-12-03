@@ -2,19 +2,15 @@ import { LitElement, css, html } from "lit";
 
 import "./navigation/Navigation.js";
 import "./app-content.js";
+import "./footer/footer.js";
 
 export class MyApp extends LitElement {
     static get properties() {
-        return {
-            // docsHint: { type: String },
-            // count: { type: Number },
-        };
+        return {};
     }
 
     constructor() {
         super();
-        // this.docsHint = "Click on the Vite and Lit logos to learn more";
-        // this.count = 0;
     }
 
     render() {
