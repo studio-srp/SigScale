@@ -84,7 +84,7 @@ export class Projects extends LitElement {
 
     .projects__card__image {
       object-fit: cover;
-      width: 500px;
+      width: 400px;
     }
 
     /* Break Pointes  */

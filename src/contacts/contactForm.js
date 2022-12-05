@@ -22,6 +22,7 @@ export class ContactForm extends LitElement {
       font-family: "sf-pro-display-semi", sans-serif;
       text-transform: uppercase;
       letter-spacing: 0.15em;
+      margin-bottom: 0px;
     }
 
     .contacts-contact__header {
@@ -29,12 +30,14 @@ export class ContactForm extends LitElement {
       letter-spacing: 0.05em;
       font-family: "sf-pro-display-semi", sans-serif;
       margin-bottom: 50px;
+      margin-top: 10px;
     }
 
     .row-dual {
       display: flex;
       gap: 50px;
       justify-content: space-between;
+      width: ;
     }
 
     .text-div {

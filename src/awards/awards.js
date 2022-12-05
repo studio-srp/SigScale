@@ -10,6 +10,8 @@ export class Awards extends LitElement {
   static styles = css`
     .awards-section {
       min-height: 100vh;
+      display: flex;
+      justify-content: center;
       font-family: "sf-pro-text", sans-serif;
       padding: 80px 0;
 
@@ -50,7 +52,6 @@ export class Awards extends LitElement {
       object-fit: cover;
       max-width: 100%;
       height: auto;
-
       width: 100%;
     }
     .awards-card-content {

@@ -38,7 +38,7 @@ export class ContactInfo extends LitElement {
     }
 
     .contact-info__card {
-      width: 49%;
+      width: 43%;
       padding: 30px 40px;
       border-top: 4px var(--color-primary) solid;
       border-radius: 15px;
@@ -49,27 +49,32 @@ export class ContactInfo extends LitElement {
     .contact-info__card-header {
       font-size: 32px;
       margin-bottom: 10px;
+      margin-top: 0px;
     }
 
     .contact-info__card-description {
       font-size: 16px;
       color: var(--color-description);
-      margin-bottom: 30px;
+      margin-bottom: 15px;
     }
 
     .contact-info__card-links {
       display: flex;
-      margin-bottom: 10px;
+      margin-top: 10px;
     }
 
     .contact-info__card-links > img {
       width: 25px;
       margin-right: 20px;
+      margin-bottom: 5px;
+      margin-top: 5px;
     }
 
     .contact-info__card-links > p {
       font-size: 16px;
       font-weight: 300px;
+      margin-bottom: 5px;
+      margin-top: 5px;
     }
 
     /* Break Pointes  */
@@ -100,6 +105,9 @@ export class ContactInfo extends LitElement {
         padding-left: 5rem !important;
         padding-right: 5rem !important;
       }
+      .contact-info__card {
+        width: 41%;
+      }
     }
 
     @media (min-width: 1400px) {
@@ -114,6 +122,9 @@ export class ContactInfo extends LitElement {
         max-width: 1140px !important;
         /* width: 100% !important; */
         padding-right: 5rem !important;
+      }
+      .contact-info__card {
+        width: 38%;
       }
     }
 
