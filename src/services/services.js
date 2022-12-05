@@ -1,4 +1,5 @@
 import { LitElement, css, html } from "lit";
+import "./our-services";
 import landingImage from "./../assets/images/about-us-landing.png";
 
 export class Services extends LitElement {
@@ -17,6 +18,7 @@ export class Services extends LitElement {
         .background-image-service-landing {
             object-fit: cover;
             position: absolute;
+            /* display: none; */
             width: 100%;
             height: 100%;
             top: 0;
@@ -76,16 +78,16 @@ export class Services extends LitElement {
         }
         /* --------------------------------------------------------- */
 
-        .our-services-area-box {
-            margin: auto auto;
-            display: flex;
-            flex-direction: column;
-            max-width: 1400px;
-            height: 100%;
-        }
+        /* .our-services-area-box {
+      margin: auto auto;
+      display: flex;
+      flex-direction: column;
+      max-width: 1400px;
+      height: 100%;
+    } */
 
         @media (min-width: 1200px) {
-            .our-services-area-box {
+            .content-area-box {
                 max-width: 1140px !important;
                 padding-left: 5rem !important;
                 padding-right: 5rem !important;
@@ -93,13 +95,13 @@ export class Services extends LitElement {
         }
 
         @media (min-width: 1400px) {
-            .our-services-area-box {
+            .content-area-box {
                 max-width: 1400px !important;
             }
         }
 
         @media (max-width: 1200px) {
-            .our-services-area-box {
+            .content-area-box {
                 padding-left: 5rem !important;
                 max-width: 1140px !important;
                 padding-right: 5rem !important;
@@ -107,7 +109,7 @@ export class Services extends LitElement {
         }
 
         @media (max-width: 576px) {
-            .our-services-area-box {
+            .content-area-box {
                 padding-left: 2rem !important;
                 padding-right: 2rem !important;
             }
@@ -133,6 +135,8 @@ export class Services extends LitElement {
                 />
                 <div class="overlay"></div>
             </section>
+            <our-services></our-services>
+            <app-footer></app-footer>
         `;
     }
 }
