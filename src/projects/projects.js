@@ -46,8 +46,8 @@ export class Projects extends LitElement {
       margin-bottom: 40px;
     }
 
-    .projects__card__content {
-    }
+    /* .projects__card__content {
+    } */
 
     .projects__card__header {
       font-size: 30px;
@@ -79,8 +79,8 @@ export class Projects extends LitElement {
       opacity: 0.7;
     }
 
-    .projects__card__image-area {
-    }
+    /* .projects__card__image-area {
+    } */
 
     .projects__card__image {
       object-fit: cover;
