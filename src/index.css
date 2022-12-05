@@ -1,68 +1,69 @@
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
-  --color-primary: #f9a418;
-  --color-white: #ffffff;
-  --color-font-primary: #000000;
-  --color-font-secondary: #1f1f1f;
-  --left-margin: 15rem;
-  --right-margin: 15rem;
-  --font-size: 16 * 0.625;
-  --color-description: #494949;
+    --color-primary: #f9a418;
+    --color-white: #ffffff;
+    --color-font-primary: #000000;
+    --color-font-secondary: #1f1f1f;
+    --left-margin: 15rem;
+    --right-margin: 15rem;
+    --font-size: 16 * 0.625;
+    --color-description: #494949;
+    --color-cyan: #1df2ba;
 }
 
 html {
-  scroll-behavior: smooth;
-  font-family: "sf-pro-text", sans-serif;
+    scroll-behavior: smooth;
+    font-family: "sf-pro-text", sans-serif;
 }
 
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .header {
-  position: relative;
+    position: relative;
 }
 
 @font-face {
-  font-family: "Gotham-nights";
-  src: url("./assets/fonts/Gotham\ Nights.otf");
+    font-family: "Gotham-nights";
+    src: url("./assets/fonts/Gotham\ Nights.otf");
 }
 
 @font-face {
-  font-family: "Gotham-nights-italic";
-  src: url("./assets/fonts/Gotham\ Nights\ Italic.otf");
+    font-family: "Gotham-nights-italic";
+    src: url("./assets/fonts/Gotham\ Nights\ Italic.otf");
 }
 
 @font-face {
-  font-family: "Gotham-nights-bold";
-  src: url("./assets/fonts/Gotham\ Nights\ Bold.otf");
+    font-family: "Gotham-nights-bold";
+    src: url("./assets/fonts/Gotham\ Nights\ Bold.otf");
 }
 
 @font-face {
-  font-family: "Gotham-nights-bold-italic";
-  src: url("./assets/fonts/Gotham\ Nights\ Bold\ Italic.otf");
+    font-family: "Gotham-nights-bold-italic";
+    src: url("./assets/fonts/Gotham\ Nights\ Bold\ Italic.otf");
 }
 
 @font-face {
-  font-family: "sf-pro-display-semi";
-  src: url("./assets/fonts/SF-Pro-Display-Semibold.ttf");
+    font-family: "sf-pro-display-semi";
+    src: url("./assets/fonts/SF-Pro-Display-Semibold.ttf");
 }
 
 @font-face {
-  font-family: "sf-pro-text";
-  src: url("./assets/fonts/SF-Pro-Text-Regular.otf");
+    font-family: "sf-pro-text";
+    src: url("./assets/fonts/SF-Pro-Text-Regular.otf");
 }
 
 .container {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
 }

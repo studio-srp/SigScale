@@ -1,10 +1,17 @@
 import { LitElement, css, html } from "lit";
+import "./../Landing/Landing.js";
+import "./oursolutions.js";
+import "./../footer/footer.js";
 
 export class Solutions extends LitElement {
     static styles = css``;
 
     render() {
-        return html` <h1>This is solutions</h1> `;
+        return html`
+            <landing-general page="Solutions"></landing-general>
+            <our-solutions></our-solutions>
+            <app-footer></app-footer>
+        `;
     }
 }
 
