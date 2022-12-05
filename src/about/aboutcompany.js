@@ -43,7 +43,6 @@ export class AboutCompany extends LitElement {
 
         .about-company {
             min-height: 100vh;
-            /* padding: 70px 0; */
             display: flex;
             align-items: flex-start;
             justify-content: center;
@@ -62,7 +61,6 @@ export class AboutCompany extends LitElement {
         }
 
         .about-company-right {
-            /* color: red; */
             width: 55%;
         }
 
@@ -137,13 +135,6 @@ export class AboutCompany extends LitElement {
             color: var(--color-primary);
         }
 
-        /* Break Pointes  */
-        /* 1400  - Large Laptop */
-        /* 1200 - Small Laptop */
-        /* 992 - Tab Landscape */
-        /* 768 - Tab Portrait */
-        /* 576 - Mobile */
-
         @media (max-width: 1400px) {
             .about-area-box {
                 align-items: flex-start;
@@ -152,7 +143,6 @@ export class AboutCompany extends LitElement {
 
         @media (max-width: 992px) {
             .about-company {
-                /* height: 100%; */
                 min-height: auto !important;
                 padding: 4rem 0;
             }
@@ -165,7 +155,6 @@ export class AboutCompany extends LitElement {
             .about-company-right {
                 width: 100%;
                 margin: auto;
-                /* margin-bottom: 60px; */
             }
 
             .about-company-left {
