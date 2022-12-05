@@ -3,6 +3,10 @@ import { LitElement, css, html } from "lit";
 import landingImage from "./../assets/images/Landing_banner.png";
 import "./about.js";
 import "./solutions.js";
+import "./achievements.js";
+import "./workwithus.js";
+import "./customers.js";
+import "./../footer/footer.js";
 
 export class Home extends LitElement {
     static styles = css`
@@ -102,10 +106,6 @@ export class Home extends LitElement {
                 padding-right: 5rem !important;
             }
 
-            /* .landing-banner__content {
-                margin-bottom: 90px;
-            } */
-
             .landing-banner__header {
                 width: 430px;
             }
@@ -125,9 +125,6 @@ export class Home extends LitElement {
                 max-width: 430px;
                 font-size: 70px;
             }
-            /* .landing-banner__content {
-                margin-bottom: 90px;
-            } */
         }
 
         .content-wrapper {
@@ -160,6 +157,10 @@ export class Home extends LitElement {
             </section>
             <app-home-about></app-home-about>
             <app-home-solutions></app-home-solutions>
+            <app-home-achievements></app-home-achievements>
+            <app-home-work></app-home-work>
+            <app-home-customers></app-home-customers>
+            <app-footer></app-footer>
         `;
     }
 }
