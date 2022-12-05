@@ -1,7 +1,18 @@
 import { LitElement, css, html } from "lit";
 import landingImage from "./../assets/images/about-us-landing.png";
 
-export class Services extends LitElement {
+export class Landing extends LitElement {
+    static properties = {
+        page: {
+            type: String,
+        },
+    };
+
+    constructor() {
+        super();
+        this.page = "";
+    }
+
     static styles = css`
         .landing-services-banner {
             display: flex;
@@ -74,18 +85,18 @@ export class Services extends LitElement {
             background-color: var(--color-primary);
             color: var(--color-primary);
         }
+
         /* --------------------------------------------------------- */
 
-        .our-services-area-box {
-            margin: auto auto;
+        .content-area-box {
+            margin-left: auto;
+            margin-right: auto;
             display: flex;
-            flex-direction: column;
             max-width: 1400px;
-            height: 100%;
         }
 
         @media (min-width: 1200px) {
-            .our-services-area-box {
+            .content-area-box {
                 max-width: 1140px !important;
                 padding-left: 5rem !important;
                 padding-right: 5rem !important;
@@ -93,13 +104,13 @@ export class Services extends LitElement {
         }
 
         @media (min-width: 1400px) {
-            .our-services-area-box {
+            .content-area-box {
                 max-width: 1400px !important;
             }
         }
 
         @media (max-width: 1200px) {
-            .our-services-area-box {
+            .content-area-box {
                 padding-left: 5rem !important;
                 max-width: 1140px !important;
                 padding-right: 5rem !important;
@@ -107,22 +118,23 @@ export class Services extends LitElement {
         }
 
         @media (max-width: 576px) {
-            .our-services-area-box {
+            .content-area-box {
                 padding-left: 2rem !important;
                 padding-right: 2rem !important;
             }
         }
     `;
+
     render() {
         return html`
             <section class="landing-services-banner">
                 <div class="content-area-box">
                     <div class="landing-banner__content">
-                        <h1 class="landing-banner__header">Services</h1>
+                        <h1 class="landing-banner__header">${this.page}</h1>
                         <div class="landing-banner__links">
                             <a class="landing-banner__nav" href="#">Home</a
                             ><span class="landing-banner__divider"></span
-                            ><a href="#" class="landing-banner__nav">Services</a>
+                            ><a href="#" class="landing-banner__nav">${this.page}</a>
                         </div>
                     </div>
                 </div>
@@ -137,4 +149,4 @@ export class Services extends LitElement {
     }
 }
 
-window.customElements.define("app-services", Services);
+window.customElements.define("landing-general", Landing);
