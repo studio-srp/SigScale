@@ -263,4 +263,4 @@ export class Customers extends LitElement {
     `;
 }
 
-window.customElements.define("app-home-customers", Customers);
+window.customElements.define("about-customers", Customers);
