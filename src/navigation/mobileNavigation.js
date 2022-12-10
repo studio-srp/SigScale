@@ -1,9 +1,23 @@
 import { LitElement, html, css } from "lit";
 
 class MobileNavigation extends LitElement {
+    static properties = {
+        name: { type: String },
+    };
+
     constructor() {
         super();
+        this.name = null;
     }
+
+    menuHandler(e) {
+        this.name.click();
+    }
+
+    firstUpdated() {
+        this.name = this.shadowRoot.getElementById("classButton");
+    }
+
     render() {
         return html`
             <div class="nav-mobile">
@@ -13,34 +27,68 @@ class MobileNavigation extends LitElement {
                     id="navigation-toggler"
                     class="nav-mobile__checkbox"
                 />
-                <label for="navigation-toggler" class="nav-mobile__button">
+                <label for="navigation-toggler" class="nav-mobile__button" id="classButton">
                     <div class="nav-mobile__icon"></div>
                 </label>
                 <div class="nav-mobile__background">&nbsp;</div>
                 <nav class="nav-mobile__nav">
                     <ul class="nav-mobile__list">
                         <li class="nav-mobile__item">
-                            <a href="/index.html" class="nav-mobile__link">Home</a>
+                            <a href="/" @mousedown="${this.menuHandler}" class="nav-mobile__link"
+                                >Home</a
+                            >
                         </li>
                         <li class="nav-mobile__item">
-                            <a href="./about.html" class="nav-mobile__link">About</a>
+                            <a
+                                href="./about"
+                                @mousedown="${this.menuHandler}"
+                                class="nav-mobile__link"
+                                >About</a
+                            >
                         </li>
                         <li class="nav-mobile__item">
-                            <a href="/solutions.html" class="nav-mobile__link">Solutions</a>
+                            <a
+                                href="/solutions"
+                                @mousedown="${this.menuHandler}"
+                                class="nav-mobile__link"
+                                >Solutions</a
+                            >
                         </li>
                         <li class="nav-mobile__item">
-                            <a href="/services.html" class="nav-mobile__link">Services</a>
+                            <a
+                                href="/services"
+                                @mousedown="${this.menuHandler}"
+                                class="nav-mobile__link"
+                                >Services</a
+                            >
                         </li>
                         <li class="nav-mobile__item">
-                            <a href="/projects.html" class="nav-mobile__link">Projects</a>
+                            <a
+                                href="/projects"
+                                class="nav-mobile__link"
+                                @mousedown="${this.menuHandler}"
+                                >Projects</a
+                            >
                         </li>
 
                         <li class="nav-mobile__item">
-                            <a href="/awards.html" class="nav-mobile__link">Awards</a>
+                            <a
+                                href="/awards"
+                                @mousedown="${this.menuHandler}"
+                                class="nav-mobile__link"
+                                >Awards</a
+                            >
                         </li>
 
                         <li class="nav-mobile__item">
-                            <a href="/contacts.html" class="nav-mobile__link">Contacts</a>
+                            <!-- @click="${this.menuHandler}" -->
+                            <a
+                                href="/contacts"
+                                @mousedown="${this.menuHandler}"
+                                class="nav-mobile__link"
+                            >
+                                Contacts
+                            </a>
                         </li>
                     </ul>
                 </nav>

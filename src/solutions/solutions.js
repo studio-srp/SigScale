@@ -4,7 +4,13 @@ import "./oursolutions.js";
 import "./../footer/footer.js";
 
 export class Solutions extends LitElement {
-    static styles = css``;
+    static styles = css`
+        /* *,
+        *::after,
+        *::before {
+            box-sizing: border-box !important;
+        } */
+    `;
 
     render() {
         return html`
