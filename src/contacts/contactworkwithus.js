@@ -8,7 +8,7 @@ export class ContactWorkWithUs extends LitElement {
             text-align: center;
             padding: 110px 0;
             font-family: "sf-pro-text", sans-serif;
-            scroll-snap-align: start;
+            scroll-snap-align: center;
             position: relative;
         }
 
