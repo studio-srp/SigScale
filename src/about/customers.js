@@ -159,7 +159,7 @@ export class Customers extends LitElement {
             .customers-area__customers-right__card {
                 margin: auto;
                 max-width: 600px;
-                background-color: white;
+                background: #fafbfe;
             }
 
             .customers-area__customers-right__card-heading {
