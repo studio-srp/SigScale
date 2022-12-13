@@ -3,8 +3,6 @@ import backgroundImage from "./../assets/images/work with us.png";
 
 export class ContactWorkWithUs extends LitElement {
   static styles = css`
-    
-    static styles = css`
         .contacts-work-with-us {
             height: 40vh;
             text-align: center;

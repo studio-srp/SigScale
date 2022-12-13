@@ -97,10 +97,10 @@ export class OurServices extends LitElement {
     }
 
     .our-services__header {
-      font-size: 36px;
+      font-size: 35px;
       letter-spacing: 0.05em;
       font-family: "sf-pro-display-semi", sans-serif;
-      margin-bottom: 30px;
+      margin-bottom: 100px;
       margin-top: 10px;
     }
 
@@ -127,13 +127,14 @@ export class OurServices extends LitElement {
     }
 
     .our-services__card-header {
-      font-size: 20px;
+      font-size: 24px;
       margin-bottom: 15px;
     }
 
     .our-services__card-description {
+      font-size: 18px;
       color: var(--color-description);
-      font-size: 16px;
+      font-weight: 200;
       margin-bottom: 25px;
     }
 
@@ -181,6 +182,26 @@ export class OurServices extends LitElement {
       .our-services-area-box {
         padding-left: 2rem !important;
         padding-right: 2rem !important;
+      }
+
+      .our-services__header {
+        font-size: 21px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+      }
+      .our-services__sub-header {
+        color: var(--color-primary);
+        font-size: 16px;
+      }
+      .our-services__card-description {
+        font-size: 15px;
+        text-align: justify;
+      }
+      .our-services__card-header {
+        font-size: 21px;
+      }
+      .our-services__card {
+        padding: 30px 20px;
       }
     }
   `;
