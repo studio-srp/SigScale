@@ -75,11 +75,11 @@ export class Customers extends LitElement {
             flex-direction: row;
             justify-content: flex-end;
             width: 30%;
+            background: rgb(250, 251, 254);
         }
         .customers-area__customers-right__card {
             max-width: 360px;
             padding: 60px 60px;
-            /* margin: auto; */
             background-color: #04213d;
             border-radius: 10px;
             text-align: center;
@@ -159,7 +159,7 @@ export class Customers extends LitElement {
             .customers-area__customers-right__card {
                 margin: auto;
                 max-width: 600px;
-                background-color: white;
+                background: #fafbfe;
             }
 
             .customers-area__customers-right__card-heading {
