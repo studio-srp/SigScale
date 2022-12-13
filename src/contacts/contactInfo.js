@@ -128,109 +128,18 @@ export class ContactInfo extends LitElement {
             } */
         }
 
-<<<<<<< HEAD
-    @media (max-width: 850px) {
-      .contact-info__card {
-        width: 100%;
-      }
-    }
+        @media (max-width: 850px) {
+            .contact-info__card {
+                width: 100%;
+            }
+        }
 
-    @media (max-width: 576px) {
-      .contact-info-area-box {
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
-      }
-    }
-  `;
-  render() {
-    return html`
-      <section class="contact-info">
-        <div class="contact-info-area-box">
-          <h3 class="contact-info__sub-header">Find Us</h3>
-          <h1 class="contact-info__header">Contact Information</h1>
-          <div class="contact-info__card-section">
-            <div class="contact-info__card">
-              <h4 class="contact-info__card-header">Sales</h4>
-              <p class="contact-info__card-description">
-                Please address inquiries about commercial sales and support
-                about sigscale to this contact details:
-              </p>
-
-              <div class="contact-info__card-links">
-                <img src=${email} alt="email icon" />
-                <p>info@sigscale.com</p>
-              </div>
-
-              <div class="contact-info__card-links">
-                <img src=${phone} alt="email icon" />
-                <p>+63 920 837 0397</p>
-              </div>
-            </div>
-
-            <div class="contact-info__card">
-              <h4 class="contact-info__card-header">Sales</h4>
-              <p class="contact-info__card-description">
-                Please address inquiries about commercial sales and support
-                about sigscale to this contact details:
-              </p>
-
-              <div class="contact-info__card-links">
-                <img src=${email} alt="email icon" />
-                <p>info@sigscale.com</p>
-              </div>
-
-              <div class="contact-info__card-links">
-                <img src=${phone} alt="email icon" />
-                <p>+63 920 837 0397</p>
-              </div>
-            </div>
-
-            <div class="contact-info__card">
-              <h4 class="contact-info__card-header">Sales</h4>
-              <p class="contact-info__card-description">
-                Please address inquiries about commercial sales and support
-                about sigscale to this contact details:
-              </p>
-
-              <div class="contact-info__card-links">
-                <img src=${email} alt="email icon" />
-                <p>info@sigscale.com</p>
-              </div>
-
-              <div class="contact-info__card-links">
-                <img src=${phone} alt="email icon" />
-                <p>+63 920 837 0397</p>
-              </div>
-            </div>
-
-            <div class="contact-info__card">
-              <h4 class="contact-info__card-header">Sales</h4>
-              <p class="contact-info__card-description">
-                Please address inquiries about commercial sales and support
-                about sigscale to this contact details:
-              </p>
-
-              <div class="contact-info__card-links">
-                <img src=${email} alt="email icon" />
-                <p>info@sigscale.com</p>
-              </div>
-
-              <div class="contact-info__card-links">
-                <img src=${phone} alt="email icon" />
-                <p>+63 920 837 0397</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-=======
         @media (max-width: 576px) {
             .contact-info-area-box {
                 padding-left: 2rem !important;
                 padding-right: 2rem !important;
             }
         }
->>>>>>> shihan
     `;
     render() {
         return html`
