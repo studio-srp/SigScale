@@ -3,14 +3,16 @@ import backgroundImage from "./../assets/images/work with us.png";
 
 export class ContactWorkWithUs extends LitElement {
   static styles = css`
-    .contacts-work-with-us {
-      height: 40vh;
-      text-align: center;
-      padding: 110px 0;
-      font-family: "sf-pro-text", sans-serif;
-      scroll-snap-align: start;
-      position: relative;
-    }
+    
+    static styles = css`
+        .contacts-work-with-us {
+            height: 40vh;
+            text-align: center;
+            padding: 110px 0;
+            font-family: "sf-pro-text", sans-serif;
+            scroll-snap-align: center;
+            position: relative;
+        }
 
     .background-image {
       position: absolute;

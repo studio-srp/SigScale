@@ -4,6 +4,23 @@ import background from "./../assets/images/Footer_rectangle.svg";
 import linkedIn from "./../assets/icons/linkedin.svg";
 
 export class Footer extends LitElement {
+    static properties = {
+        page: { type: String },
+    };
+
+    constructor() {
+        super();
+        this.name = document.getElementById("container");
+    }
+
+    menuHandler(e) {
+        console.log(this.name);
+        this.name.scrollTo({
+            top: 0,
+            left: 0,
+        });
+    }
+
     render() {
         return html`
             <footer class="footer">
@@ -20,14 +37,44 @@ export class Footer extends LitElement {
                         </div>
                         <div class="footer-section">
                             <div class="footer-section__links">
-                                <a href="#" class="footer-links">About</a>
-                                <a href="#" class="footer-links">Solutions</a>
-                                <a href="#" class="footer-links">Services</a>
+                                <a
+                                    href="/about"
+                                    @mousedown="${this.menuHandler}"
+                                    class="footer-links"
+                                    >About</a
+                                >
+                                <a
+                                    href="/solutions"
+                                    @mousedown="${this.menuHandler}"
+                                    class="footer-links"
+                                    >Solutions</a
+                                >
+                                <a
+                                    href="/services"
+                                    @mousedown="${this.menuHandler}"
+                                    class="footer-links"
+                                    >Services</a
+                                >
                             </div>
                             <div class="footer-section__links">
-                                <a href="#" class="footer-links">Projects</a>
-                                <a href="#" class="footer-links">Awards</a>
-                                <a href="#" class="footer-links">Contacts</a>
+                                <a
+                                    href="/projects"
+                                    @mousedown="${this.menuHandler}"
+                                    class="footer-links"
+                                    >Projects</a
+                                >
+                                <a
+                                    href="/awards"
+                                    @mousedown="${this.menuHandler}"
+                                    class="footer-links"
+                                    >Awards</a
+                                >
+                                <a
+                                    href="/contacts"
+                                    @mousedown="${this.menuHandler}"
+                                    class="footer-links"
+                                    >Contacts</a
+                                >
                             </div>
                         </div>
                     </div>
