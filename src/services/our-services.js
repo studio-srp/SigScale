@@ -192,17 +192,54 @@ export class OurServices extends LitElement {
       .our-services__sub-header {
         color: var(--color-primary);
         font-size: 16px;
+        padding-bottom:5px;
       }
       .our-services__card-description {
         font-size: 15px;
         text-align: justify;
+        letter-spacing: 0.03em;
+        font-weight: 100;
       }
       .our-services__card-header {
-        font-size: 21px;
+        font-size: 18px;
       }
       .our-services__card {
         padding: 30px 20px;
       }
+      .our-services {
+      padding: 40px 0;
+    }
+  }
+    @media (max-width: 992px) {
+      .our-services-area-box {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+      }
+
+      .our-services__header {
+        font-size: 23px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+      }
+      .our-services__sub-header {
+        color: var(--color-primary);
+        font-size: 18px;
+        padding-bottom:5px;
+      }
+      .our-services__card-description {
+        font-size: 16px;
+        text-align: justify;
+        letter-spacing: 0.03em;
+        font-weight: 100;
+      }
+      .our-services__card-header {
+        font-size: 20px;
+      }
+      .our-services__card {
+        padding: 40px 30px;
+      }
+      .our-services {
+      padding: 50px 0;
     }
   `;
 }
