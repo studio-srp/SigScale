@@ -125,7 +125,13 @@ export class Landing extends LitElement {
 
       .landing-banner__header {
         font-size: 30px !important;
-        color: rebeccapurple !important;
+      }
+
+      .landing-banner__nav {
+        font-size: 18px;
+      }
+      .landing-banner__divider {
+        height: 20px;
       }
     }
   `;

@@ -30,7 +30,7 @@ export class Projects extends LitElement {
       font-size: 36px;
       letter-spacing: 0.05em;
       font-family: "sf-pro-display-semi", sans-serif;
-      margin-bottom: 30px;
+      margin-bottom: 100px;
       margin-top: 10px;
     }
 
@@ -117,11 +117,11 @@ export class Projects extends LitElement {
       }
 
       .projects__header {
-        text-align: center;
+        text-align: left;
       }
 
       .projects__sub-header {
-        text-align: center;
+        text-align: left;
       }
     }
 
@@ -157,10 +157,68 @@ export class Projects extends LitElement {
       }
     }
 
+    @media (max-width: 992px) {
+      .projects-area-box {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+      }
+      .projects__header {
+        font-size: 23px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+      }
+      .projects__sub-header {
+        color: var(--color-primary);
+        font-size: 18px;
+        padding-bottom: 5px;
+      }
+      .projects__card__description {
+        font-size: 16px;
+        text-align: justify;
+        letter-spacing: 0.03em;
+        font-weight: 100;
+      }
+      .projects__card__header {
+        font-size: 20px;
+        margin-top: 00px;
+      }
+      .projects__card-section {
+        padding: 40px 30px;
+      }
+      .projects-container {
+        padding: 50px 0;
+      }
+    }
     @media (max-width: 576px) {
       .projects-area-box {
         padding-left: 2rem !important;
         padding-right: 2rem !important;
+      }
+      .projects__header {
+        font-size: 21px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+      }
+      .projects__sub-header {
+        color: var(--color-primary);
+        font-size: 16px;
+        padding-bottom: 5px;
+      }
+      .projects__card__description {
+        font-size: 15px;
+        text-align: justify;
+        letter-spacing: 0.03em;
+        font-weight: 100;
+      }
+      .projects__card__header {
+        font-size: 18px;
+        margin-top: 00px;
+      }
+      .projects__card-section {
+        padding: 30px 20px;
+      }
+      .projects-container {
+        padding: 40px 0;
       }
     }
   `;
