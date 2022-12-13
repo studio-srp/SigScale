@@ -165,7 +165,56 @@ export class AboutCompany extends LitElement {
             }
         }
     `;
+
+    static properties = {
+        vision: {
+            type: Boolean,
+        },
+    };
+
+    constructor() {
+        super();
+        this.vision = true;
+    }
+
+    visionHandler() {
+        this.vision = true;
+    }
+    missionHandler() {
+        this.vision = false;
+    }
+
     render() {
+        let visionButton;
+        let missionButton;
+        let paragraph;
+        if (this.vision) {
+            visionButton = html`<button class="vision-btn">Vision</button>`;
+            missionButton = html` <button
+                class="vision-btn   btn-cta"
+                @click=${this.missionHandler}
+            >
+                Mission
+            </button>`;
+            paragraph = html` <p class="about-company-right__description">
+                This is vision. Our core competency is in signaling and distributed fault tolerant
+                systems. We have developed our own protocol stacks
+                (SIGTRAN,TCAP,CAP,MAP,NGAP,RADIUS,EAP) in Erlang, allowing us to build microservices
+                with very low footprint and massive scalability.
+            </p>`;
+        } else {
+            visionButton = html`<button class="vision-btn btn-cta" @click=${this.visionHandler}>
+                Vision
+            </button>`;
+            missionButton = html` <button class="vision-btn">Mission</button>`;
+            paragraph = html` <p class="about-company-right__description">
+                This is mission. Our core competency is in signaling and distributed fault tolerant
+                systems. We have developed our own protocol stacks
+                (SIGTRAN,TCAP,CAP,MAP,NGAP,RADIUS,EAP) in Erlang, allowing us to build microservices
+                with very low footprint and massive scalability.
+            </p>`;
+        }
+
         return html`
             <section class="about-company">
                 <div class="about-area-box">
@@ -193,16 +242,10 @@ export class AboutCompany extends LitElement {
                         </p>
 
                         <div class="about-company-right__btn-complex">
-                            <button class="vision-btn">Vision</button>
-                            <button class="vision-btn btn-cta">Mission</button>
+                            ${visionButton} ${missionButton}
                         </div>
 
-                        <p class="about-company-right__description">
-                            Our core competency is in signaling and distributed fault tolerant
-                            systems. We have developed our own protocol stacks
-                            (SIGTRAN,TCAP,CAP,MAP,NGAP,RADIUS,EAP) in Erlang, allowing us to build
-                            microservices with very low footprint and massive scalability.
-                        </p>
+                        ${paragraph}
                     </div>
                 </div>
             </section>
