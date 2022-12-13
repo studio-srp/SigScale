@@ -117,6 +117,34 @@ export class Services extends LitElement {
         position: absolute;
         display: block;
       }
+      .landing-banner__header {
+        font-size: 30px;
+      }
+      .landing-banner__nav {
+        font-size: 18px;
+      }
+      .landing-banner__divider {
+        height: 20px;
+      }
+    }
+    @media (max-width: 992px) {
+      .content-area-box {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+      }
+      .landing-banner__content {
+        position: absolute;
+        display: block;
+      }
+      .landing-banner__header {
+        font-size: 32px;
+      }
+      .landing-banner__nav {
+        font-size: 20px;
+      }
+      .landing-banner__divider {
+        height: 22px;
+      }
     }
   `;
   render() {
