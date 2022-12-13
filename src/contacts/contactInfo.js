@@ -128,6 +128,12 @@ export class ContactInfo extends LitElement {
       }
     }
 
+    @media (max-width: 850px) {
+      .contact-info__card {
+        width: 100%;
+      }
+    }
+
     @media (max-width: 576px) {
       .contact-info-area-box {
         padding-left: 2rem !important;
