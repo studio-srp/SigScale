@@ -128,6 +128,9 @@ export class Awards extends LitElement {
       .awards-card-container {
         padding: 40px 0;
       }
+      .awards-card {
+        padding: 20px 20px;
+      }
     }
     @media (max-width: 992px) {
       .awards-section-area-box {
@@ -160,6 +163,9 @@ export class Awards extends LitElement {
       .awards-card-container {
         padding: 50px 0;
       }
+      .awards-card {
+        padding: 20px 20px;
+      }
     }
   `;
   render() {
@@ -170,20 +176,15 @@ export class Awards extends LitElement {
           <h1 class="awards-section__header">Lorem ipsum dolor sit amet</h1>
           <div class="awards-section__card-section">
             <div class="awards-card">
-              <img src=${award1} alt="award image" class="awards-card__image" />
+              <!-- <img src=${award1} alt="award image" class="awards-card__image" /> -->
               <div class="awards-card-content">
                 <h3 class="awards-card__header">
                   Award for Best use of Open Digital Framework
                 </h3>
                 <p class="awards-card__description margin-top-small">
-                  We offer our CSP customers commercial subscription support
-                  services to meet their business assurance requirements. While
-                  vendors of proprietary solutions will charge you relative to
-                  the amount of your customer traffic, SigScale offers our
-                  software license free. We charge relative to only your use of
-                  our support resources. Subscription packages are sized to
-                  include a guaranteed monthly minimum volume, availability
-                  windows and response time to match your requirements.
+                  SigScale is proud to share the award for Best use of ODF at
+                  the 2021 Catalyst Awards with champions Orange, Vodafone,
+                  Telenor and partners Oracle and Whale Cloud.
                 </p>
               </div>
             </div>
@@ -191,36 +192,60 @@ export class Awards extends LitElement {
               <img src=${award2} alt="award image" class="awards-card__image" />
               <div class="awards-card-content">
                 <h3 class="awards-card__header">
-                  Award for Best use of Open Digital Framework
+                  Digital Transformation World 2021
                 </h3>
                 <p class="awards-card__description margin-top-small">
-                  We offer our CSP customers commercial subscription support
-                  services to meet their business assurance requirements. While
-                  vendors of proprietary solutions will charge you relative to
-                  the amount of your customer traffic, SigScale offers our
-                  software license free. We charge relative to only your use of
-                  our support resources. Subscription packages are sized to
-                  include a guaranteed monthly minimum volume, availability
-                  windows and response time to match your requirements.
+                  SigScale partners with Orange, Vodafone, Telenor, Oracle and
+                  Whale Cloud on the 5G Chargers Catalyst project. This Catalyst
+                  project demonstrates AI-driven dynamic product catalogue use
+                  cases and ODA Component integration.
                 </p>
               </div>
             </div>
 
             <div class="awards-card">
+              <div class="awards-card-content">
+                <h3 class="awards-card__header">
+                  Award for Outstanding Catalyst - Innovation
+                </h3>
+                <p class="awards-card__description margin-top-small">
+                  SigScale is proud to share the award for innovation at this
+                  year's Digital Transformation World Series award ceremony
+                  November 12 2020. SigScale shares the award with champions
+                  Orange, Vodafone, China Unicom, Telenor and partners Oracle,
+                  Tech Mahindra, Wavenet, Globetom, Whale Cloud.
+                </p>
+              </div>
+            </div>
+            <div class="awards-card">
               <img src=${award3} alt="award image" class="awards-card__image" />
               <div class="awards-card-content">
                 <h3 class="awards-card__header">
-                  Award for Best use of Open Digital Framework
+                  Digital Transformation World 2020
                 </h3>
                 <p class="awards-card__description margin-top-small">
-                  We offer our CSP customers commercial subscription support
-                  services to meet their business assurance requirements. While
-                  vendors of proprietary solutions will charge you relative to
-                  the amount of your customer traffic, SigScale offers our
-                  software license free. We charge relative to only your use of
-                  our support resources. Subscription packages are sized to
-                  include a guaranteed monthly minimum volume, availability
-                  windows and response time to match your requirements.
+                  SigScale participates in BOS Phase II Catalyst at TM Forum's
+                  annual event online October 7 thru November 12 2020. Phase II
+                  of the BOS project implements practical use cases around
+                  online charging, usage-buckets, and usage management as well
+                  as catalog federation.
+                </p>
+              </div>
+            </div>
+            <div class="awards-card">
+              <img src=${award3} alt="award image" class="awards-card__image" />
+              <div class="awards-card-content">
+                <h3 class="awards-card__header">
+                  Digital Transformation World 2019
+                </h3>
+                <p class="awards-card__description margin-top-small">
+                  SigScale participes in a Catalyst Project at TM Forum's annual
+                  event in Nice May 14-16 2019. A TM Forum Pioneer Project was
+                  chartered last year for a Business Operating System (BOS)
+                  which would provide an open source reference implementation of
+                  core parts of Open Digital Architecture (ODA). SigScale
+                  partnered with Orange, Vodafone, Sigma and Globetom to
+                  demonstrate an implementation of BOS.
                 </p>
               </div>
             </div>
