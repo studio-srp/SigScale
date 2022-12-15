@@ -168,15 +168,24 @@ export class ContactInfo extends LitElement {
                         </div>
 
                         <div class="contact-info__card">
-                            <h4 class="contact-info__card-header">Sales</h4>
+                            <h4 class="contact-info__card-header">Support</h4>
                             <p class="contact-info__card-description">
-                                Please address inquiries about commercial sales and support about
-                                sigscale to this contact details:
+                                Everyone is welcome to contact us with questions or issues around
+                                installing and using our open source software:
+                            </p>
+                            <p class="contact-info__card-description">
+                                Help on our products is found in our
+                                <a href="https://sigscale.atlassian.net/wiki/spaces/SO/overview"
+                                    >Knowledge Base</a
+                                >
+                                Additionally most of our open source projects have public
+                                <a href="https://sigscale.atlassian.net/jira/projects">Jira</a>
+                                issue tracking.
                             </p>
 
                             <div class="contact-info__card-links">
                                 <img src=${email} alt="email icon" />
-                                <p>info@sigscale.com</p>
+                                <p>support@sigscale.com</p>
                             </div>
 
                             <div class="contact-info__card-links">
@@ -186,39 +195,35 @@ export class ContactInfo extends LitElement {
                         </div>
 
                         <div class="contact-info__card">
-                            <h4 class="contact-info__card-header">Sales</h4>
+                            <h4 class="contact-info__card-header">Headquarters</h4>
                             <p class="contact-info__card-description">
-                                Please address inquiries about commercial sales and support about
-                                sigscale to this contact details:
+                                SigScale Global Inc. Toronto, Ontario Canada
                             </p>
 
                             <div class="contact-info__card-links">
                                 <img src=${email} alt="email icon" />
-                                <p>info@sigscale.com</p>
+                                <p>admin@sigscale.com</p>
                             </div>
 
-                            <div class="contact-info__card-links">
-                                <img src=${phone} alt="email icon" />
-                                <p>+63 920 837 0397</p>
-                            </div>
+                            <!-- <div class="contact-info__card-links">
+                <img src=${phone} alt="email icon" />
+                <p>+63 920 837 0397</p>
+              </div> -->
                         </div>
 
                         <div class="contact-info__card">
-                            <h4 class="contact-info__card-header">Sales</h4>
-                            <p class="contact-info__card-description">
-                                Please address inquiries about commercial sales and support about
-                                sigscale to this contact details:
-                            </p>
+                            <h4 class="contact-info__card-header">Development Center</h4>
+                            <p class="contact-info__card-description">Colombo 00300 Sri Lanka</p>
 
                             <div class="contact-info__card-links">
                                 <img src=${email} alt="email icon" />
-                                <p>info@sigscale.com</p>
+                                <p>admin@sigscale.lk</p>
                             </div>
 
-                            <div class="contact-info__card-links">
-                                <img src=${phone} alt="email icon" />
-                                <p>+63 920 837 0397</p>
-                            </div>
+                            <!-- <div class="contact-info__card-links">
+                <img src=${phone} alt="email icon" />
+                <p>+63 920 837 0397</p>
+              </div> -->
                         </div>
                     </div>
                 </div>

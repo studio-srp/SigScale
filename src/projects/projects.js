@@ -257,29 +257,20 @@ export class Projects extends LitElement {
                     <div class="projects__card-section">
                         <div class="projects__card__content">
                             <h4 class="projects__card__header">
-                                3GPP Online Charging System (OCS)
+                                Resource Inventory Management (RIM)
                             </h4>
                             <p class="projects__card__description">
-                                In a communications service provider (CSP) network an Online
-                                Charging System (OCS) is a core network element which performs
-                                real-time charging for services. An OCS authorizes subscribers'
-                                sessions subject to available credit on account and decrements
-                                account balance as services are consumed. When a subscriber's
-                                account balance is depleted authorization may be withdrawn and
-                                ongoing session(s) terminated. SigScale OCS includes a 3GPP AAA
-                                server function for authentication, authorization and accounting
-                                (AAA) of subscribers using DIAMETER or RADIUS protocols. TM Forum
-                                Open APIs for prepay balance management and product catalog
-                                management are supported with a web components front end.
+                                TM Forum Resource Catalog (TMF634) & Inventory (TMF639) with
+                                disovery of managed objects through 3GPP Bulk CM (32.616).
                             </p>
                             <div class="projects__card__link-area">
                                 Source Code Repository:
-                                <a href="#" class="projects__card__link">github.com/sigscale/ocs</a>
+                                <a href="#" class="projects__card__link">github.com/sigscale/rim</a>
                             </div>
                         </div>
-                        <div class="projects__card__image-area">
-                            <img src=${projectImg2} alt="" class="projects__card__image" />
-                        </div>
+                        <!-- <div class="projects__card__image-area">
+              <img src=${projectImg2} alt="" class="projects__card__image" />
+            </div> -->
                     </div>
 
                     <div class="projects__card-section">
@@ -310,57 +301,153 @@ export class Projects extends LitElement {
                         </div>
                     </div>
 
-                    <!-- <div class="projects__card-section">
+                    <div class="projects__card-section">
                         <div class="projects__card__content">
-                            <h4 class="projects__card__header">3GPP Online Charging System (OCS)</h4>
+                            <h4 class="projects__card__header">
+                                DIAMETER Signaling Controller (DSC)
+                            </h4>
                             <p class="projects__card__description">
-                                In a communications service provider (CSP) network an Online Charging
-                                System (OCS) is a core network element which performs real-time charging
-                                for services. An OCS authorizes subscribers' sessions subject to
-                                available credit on account and decrements account balance as services
-                                are consumed. When a subscriber's account balance is depleted
-                                authorization may be withdrawn and ongoing session(s) terminated.
-                                SigScale OCS includes a 3GPP AAA server function for authentication,
-                                authorization and accounting (AAA) of subscribers using DIAMETER or
-                                RADIUS protocols. TM Forum Open APIs for prepay balance management and
-                                product catalog management are supported with a web components front
-                                end.
+                                A router for DIAMETER protocol traffic.
                             </p>
                             <div class="projects__card__link-area">
                                 Source Code Repository:
-                                <a href="#" class="projects__card__link">github.com/sigscale/ocs</a>
+                                <a href="#" class="projects__card__link">github.com/sigscale/dsc</a>
                             </div>
                         </div>
-                        <div class="projects__card__image">
+                        <!-- <div class="projects__card__image">
                             <img src="./assets/images/project-2.png" alt="" />
-                        </div>
-                    </div> -->
+                        </div> -->
+                    </div>
 
-                    <!-- <div class="projects__card-section">
+                    <div class="projects__card-section">
                         <div class="projects__card__content">
-                            <h4 class="projects__card__header">3GPP Online Charging System (OCS)</h4>
+                            <h4 class="projects__card__header">M3UA Stack</h4>
                             <p class="projects__card__description">
-                                In a communications service provider (CSP) network an Online Charging
-                                System (OCS) is a core network element which performs real-time charging
-                                for services. An OCS authorizes subscribers' sessions subject to
-                                available credit on account and decrements account balance as services
-                                are consumed. When a subscriber's account balance is depleted
-                                authorization may be withdrawn and ongoing session(s) terminated.
-                                SigScale OCS includes a 3GPP AAA server function for authentication,
-                                authorization and accounting (AAA) of subscribers using DIAMETER or
-                                RADIUS protocols. TM Forum Open APIs for prepay balance management and
-                                product catalog management are supported with a web components front
-                                end.
+                                SigScale M3UA is an implementation of SIGTRAN M3UA (MTP3 User Agent)
+                                protocol stack.
                             </p>
                             <div class="projects__card__link-area">
                                 Source Code Repository:
-                                <a href="#" class="projects__card__link">github.com/sigscale/ocs</a>
+                                <a href="#" class="projects__card__link"
+                                    >github.com/sigscale/m3ua</a
+                                >
                             </div>
                         </div>
                         <div class="projects__card__image">
                             <img src="./assets/images/project-3.png" alt="" />
                         </div>
-                    </div> -->
+                    </div>
+
+                    <div class="projects__card-section">
+                        <div class="projects__card__content">
+                            <h4 class="projects__card__header">TCAP Stack</h4>
+                            <p class="projects__card__description">
+                                SigScale TCAP is full protocol stack implementation of Transaction
+                                Capabilities Application Part (TCAP) of Signaling System 7 (SS7).
+                            </p>
+                            <div class="projects__card__link-area">
+                                Source Code Repository:
+                                <a href="#" class="projects__card__link">
+                                    github.com/sigscale/tcap</a
+                                >
+                            </div>
+                        </div>
+                        <div class="projects__card__image">
+                            <img src="./assets/images/project-3.png" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="projects__card-section">
+                        <div class="projects__card__content">
+                            <h4 class="projects__card__header">CAMEL</h4>
+                            <p class="projects__card__description">
+                                SigScale CAP is protocol implementation of CAMEL Application Part
+                                (CAP) of SS7.
+                            </p>
+                            <div class="projects__card__link-area">
+                                Source Code Repository:
+                                <a href="#" class="projects__card__link">
+                                    github.com/sigscale/cap</a
+                                >
+                            </div>
+                        </div>
+                        <div class="projects__card__image">
+                            <img src="./assets/images/project-3.png" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="projects__card-section">
+                        <div class="projects__card__content">
+                            <h4 class="projects__card__header">MAP</h4>
+                            <p class="projects__card__description">
+                                SigScale MAP is protocol implementation of Mobile Application Part
+                                (CAP) of SS7.
+                            </p>
+                            <div class="projects__card__link-area">
+                                Source Code Repository:
+                                <a href="#" class="projects__card__link">
+                                    github.com/sigscale/map</a
+                                >
+                            </div>
+                        </div>
+                        <div class="projects__card__image">
+                            <img src="./assets/images/project-3.png" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="projects__card-section">
+                        <div class="projects__card__content">
+                            <h4 class="projects__card__header">SCCP</h4>
+                            <p class="projects__card__description">
+                                SigScale SCCP is an implementation of SS7 Signaling Connection
+                                Control Part (SCCP) protocol..
+                            </p>
+                            <div class="projects__card__link-area">
+                                Source Code Repository:
+                                <a href="#" class="projects__card__link">
+                                    github.com/sigscale/sccp</a
+                                >
+                            </div>
+                        </div>
+                        <div class="projects__card__image">
+                            <img src="./assets/images/project-3.png" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="projects__card-section">
+                        <div class="projects__card__content">
+                            <h4 class="projects__card__header">RADIUS Stack</h4>
+                            <p class="projects__card__description">
+                                SigScale RADIUS is an implementation of the RADIUS protocol stack.
+                            </p>
+                            <div class="projects__card__link-area">
+                                Source Code Repository:
+                                <a href="#" class="projects__card__link">
+                                    github.com/sigscale/radierl</a
+                                >
+                            </div>
+                        </div>
+                        <div class="projects__card__image">
+                            <img src="./assets/images/project-3.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="projects__card-section">
+                        <div class="projects__card__content">
+                            <h4 class="projects__card__header">SigScale MIB</h4>
+                            <p class="projects__card__description">
+                                SNMP Management Information Base (MIB) for the SigScale Enterprise.
+                            </p>
+                            <div class="projects__card__link-area">
+                                Source Code Repository:
+                                <a href="#" class="projects__card__link">
+                                    github.com/sigscale/sigscale_mibs</a
+                                >
+                            </div>
+                        </div>
+                        <div class="projects__card__image">
+                            <img src="./assets/images/project-3.png" alt="" />
+                        </div>
+                    </div>
                 </div>
             </section>
             <app-footer></app-footer>
