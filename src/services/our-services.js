@@ -3,54 +3,55 @@ import serviceicon1 from "./../assets/icons/bulb-yellow.svg";
 import serviceicon2 from "./../assets/icons/bulb-yellow.svg";
 
 export class OurServices extends LitElement {
-    render() {
-        return html`
-            <section class="our-services">
-                <div class="our-services-area-box">
-                    <h3 class="section__sub-header">Our services</h3>
-                    <h1 class="section__header">How Can We Assist You</h1>
-                    <div class="our-services__card-area">
-                        <div class="our-services__card">
-                            <div class="our-services__image-complex">
-                                <img
-                                    src=${serviceicon1}
-                                    alt="bulb image"
-                                    class="our-services__card-image"
-                                />
-                            </div>
-                            <h3 class="our-services__card-header">Supscription Support</h3>
-                            <p class="our-services__card-description">
-                                We offer our CSP customers commercial subscription support services
-                                to meet their business assurance requirements.
-                            </p>
-                            <p class="our-services__card-description">
-                                While vendors of proprietary solutions will charge you relative to
-                                the amount of your customer traffic, SigScale offers our software
-                                license free. We charge relative to only your use of our support
-                                resources. Subscription packages are sized to include a guaranteed
-                                monthly minimum volume, availability windows and response time to
-                                match your requirements.
-                            </p>
-                        </div>
+  render() {
+    return html`
+      <section class="our-services">
+        <div class="our-services-area-box">
+          <h3 class="section__sub-header">Our services</h3>
+          <h1 class="section__header">How Can We Assist You</h1>
+          <div class="our-services__card-area">
+            <div class="our-services__card">
+              <div class="our-services__image-complex">
+                <img
+                  src=${serviceicon1}
+                  alt="bulb image"
+                  class="our-services__card-image"
+                />
+              </div>
+              <h3 class="our-services__card-header">Supscription Support</h3>
+              <p class="our-services__card-description">
+                We offer our CSP customers commercial subscription support
+                services to meet their business assurance requirements.
+              </p>
+              <p class="our-services__card-description">
+                While vendors of proprietary solutions will charge you relative
+                to the amount of your customer traffic, SigScale offers our
+                software license free. We charge relative to only your use of
+                our support resources. Subscription packages are sized to
+                include a guaranteed monthly minimum volume, availability
+                windows and response time to match your requirements.
+              </p>
+            </div>
 
-                        <div class="our-services__card">
-                            <div class="our-services__image-complex">
-                                <img
-                                    src=${serviceicon2}
-                                    alt="bulb image"
-                                    class="our-services__card-image"
-                                />
-                            </div>
-                            <h3 class="our-services__card-header">Project Sponsorship</h3>
-                            <p class="our-services__card-description">
-                                Where our software projects require feature additions for full
-                                coverage of your requirements a project sponsorship may be
-                                available. To ensure our roadmap fits your project's timeline we
-                                engage commercially on feature delivery. While all of our software
-                                remains open source you can influence the product direction and get
-                                those features you need implemented to suit your requirements.
-                            </p>
-                            <!-- <p class="our-services__card-description">
+            <div class="our-services__card">
+              <div class="our-services__image-complex">
+                <img
+                  src=${serviceicon2}
+                  alt="bulb image"
+                  class="our-services__card-image"
+                />
+              </div>
+              <h3 class="our-services__card-header">Project Sponsorship</h3>
+              <p class="our-services__card-description">
+                Where our software projects require feature additions for full
+                coverage of your requirements a project sponsorship may be
+                available. To ensure our roadmap fits your project's timeline we
+                engage commercially on feature delivery. While all of our
+                software remains open source you can influence the product
+                direction and get those features you need implemented to suit
+                your requirements.
+              </p>
+              <!-- <p class="our-services__card-description">
                 Ipsam, et temporibus dolorum deleniti at quasi officia tenetur
                 non provident eum repudiandae obcaecati sunt sequi doloremque
                 modi quod voluptatum mollitia autem praesentium voluptatem minus
@@ -62,14 +63,14 @@ export class OurServices extends LitElement {
                 doloremque, sint aliquam! Aliquid nostrum perferendis ipsa
                 ducimus blanditiis
               </p> -->
-                        </div>
-                    </div>
-                </div>
-            </section>
-        `;
-    }
+            </div>
+          </div>
+        </div>
+      </section>
+    `;
+  }
 
-    static styles = css`
+  static styles = css`
     .our-services {
       min-height: 100vh;
       display: flex;
@@ -83,7 +84,9 @@ export class OurServices extends LitElement {
             font-family: "sf-pro-display-semi", sans-serif;
             color: var(--color-primary);
             text-transform: uppercase;
-            font-size: 24px;
+            font-size: 24px !important ;
+ line-height: 29px;
+ font-weight: 700;
             letter-spacing: 0.15em;
             margin-bottom: 5px;
         }
@@ -91,8 +94,9 @@ export class OurServices extends LitElement {
 
     .section__header {
             font-family: "sf-pro-display-semi", sans-serif;
-            font-size: 36px;
-            line-height: 42px;
+            font-size: 35px !important ;
+ line-height: 31px;
+ font-weight: 700;
             margin: 0;
             margin-bottom: 40px;
         }
@@ -120,12 +124,14 @@ export class OurServices extends LitElement {
     }
 
     .our-services__card-header {
-      font-size: 24px;
+      font-size: 30px !important ;
+ line-height: 29px !important ;
       margin-bottom: 15px;
     }
 
     .our-services__card-description {
-      font-size: 18px;
+      font-size: 19px !important ;
+ line-height: 32px !important ;
       color: var(--color-description);
       font-weight: 200;
       margin-bottom: 25px;
@@ -178,20 +184,26 @@ export class OurServices extends LitElement {
       }
 
       .section__header {
-        font-size: 21px;
+        font-size: 27px !important ;
+ line-height: 29px;
+ font-weight: 700;
       }
       .section__sub-header {
-        font-size: 16px;
+        font-size: 24px !important ;
+ line-height: 29px;
+ font-weight: 700;
        
       }
       .our-services__card-description {
-        font-size: 15px;
+        font-size: 19px !important ;
+ line-height: 32px;
         text-align: justify;
         letter-spacing: 0.03em;
         font-weight: 100;
       }
       .our-services__card-header {
-        font-size: 18px;
+        font-size: 24px !important;
+ line-height: 29px;
       }
       .our-services__card {
         padding: 30px 20px;
@@ -207,10 +219,19 @@ export class OurServices extends LitElement {
       }
 
       .section__header {
-        font-size: 23px;
+        font-size: 27px !important ;
+ line-height: 31px !important ;
+ font-weight: 700;
       }
       .section__sub-header {
-        font-size: 18px;
+        font-size: 24px !important ;
+ line-height: 29px !important ;
+ font-weight: 700;
+      }
+      
+      .our-services__card-header {
+        font-size: 24px !important;
+ line-height: 29px;
       }
       .our-services__card-description {
         font-size: 16px;
@@ -219,7 +240,9 @@ export class OurServices extends LitElement {
         font-weight: 100;
       }
       .our-services__card-header {
-        font-size: 20px;
+        font-size: 24px !important ;
+ line-height: 29px !important ;
+ font-weight: 700;
       }
       .our-services__card {
         padding: 40px 30px;
