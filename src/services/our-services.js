@@ -7,8 +7,8 @@ export class OurServices extends LitElement {
         return html`
             <section class="our-services">
                 <div class="our-services-area-box">
-                    <h3 class="our-services__sub-header">Our services</h3>
-                    <h1 class="our-services__header">How Can We Assist You</h1>
+                    <h3 class="section__sub-header">Our services</h3>
+                    <h1 class="section__header">How Can We Assist You</h1>
                     <div class="our-services__card-area">
                         <div class="our-services__card">
                             <div class="our-services__image-complex">
