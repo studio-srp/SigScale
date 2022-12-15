@@ -136,7 +136,8 @@ export class About extends LitElement {
       font-size: 24px !important ;
       line-height: 29px;
       font-weight: 700;
-      line-height: 29px;
+      margin-top: 0px !important ;
+
       /* letter-spacing: -0.005em; */
       margin-bottom: 4px;
       font-family: "sf-pro-display-semi", sans-serif;

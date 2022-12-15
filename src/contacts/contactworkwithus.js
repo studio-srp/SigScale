@@ -3,14 +3,14 @@ import backgroundImage from "./../assets/images/work with us.png";
 
 export class ContactWorkWithUs extends LitElement {
   static styles = css`
-        .contacts-work-with-us {
-            height: 40vh;
-            text-align: center;
-            padding: 110px 0;
-            font-family: "sf-pro-text", sans-serif;
-            scroll-snap-align: center;
-            position: relative;
-        }
+    .contacts-work-with-us {
+      height: 40vh;
+      text-align: center;
+      padding: 110px 0;
+      font-family: "sf-pro-text", sans-serif;
+      scroll-snap-align: center;
+      position: relative;
+    }
 
     .background-image {
       position: absolute;
@@ -27,7 +27,10 @@ export class ContactWorkWithUs extends LitElement {
       text-transform: uppercase;
       text-align: center;
       color: var(--color-primary);
-      font-size: 20px;
+      font-size: 24px !important ;
+      line-height: 29px;
+      font-weight: 700;
+
       letter-spacing: 0.15em;
       margin-bottom: 10px;
     }
@@ -35,7 +38,9 @@ export class ContactWorkWithUs extends LitElement {
     .contacts-work-with-us__heading {
       font-family: "sf-pro-display-semi", sans-serif;
       color: white;
-      font-size: 36px;
+      font-size: 35px !important ;
+      line-height: 31px;
+      font-weight: 700;
       text-align: center;
       letter-spacing: 0.05em;
       margin-bottom: 30px;
@@ -46,12 +51,14 @@ export class ContactWorkWithUs extends LitElement {
       color: black;
       display: inline-block;
       margin: auto;
-      padding: 20px 40px;
+      padding: 10px 40px;
       color: var(--color-primary);
       border: var(--color-primary) 2px solid;
       border-radius: 5px;
       margin: auto;
       transition: 0.2s all;
+      font-size: 19px !important ;
+      line-height: 32px !important ;
     }
 
     .contacts-work-with-us__cta-btn:hover {
@@ -81,17 +88,23 @@ export class ContactWorkWithUs extends LitElement {
     /* 768 - Tab Portrait */
     /* 576 - Mobile */
 
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
       .contacts-work-with-us__heading {
-        font-size: 30px !important;
+        font-size: 35px !important ;
+        line-height: 31px;
+        font-weight: 700;
       }
 
       .contacts-work-with-us__sub-heading {
-        font-size: 16px;
+        font-size: 24px !important ;
+        line-height: 29px;
+        font-weight: 700;
       }
 
       .cta-btn {
         padding: 14px 20px;
+        font-size: 19px !important ;
+        line-height: 32px !important ;
       }
     }
 

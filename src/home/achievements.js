@@ -129,7 +129,7 @@ export class Achievements extends LitElement {
       font-size: 35px !important ;
       line-height: 31px;
       font-weight: 700;
-      margin: auto;
+      /* margin: auto; */
       margin-bottom: 50px;
     }
 
@@ -160,6 +160,7 @@ export class Achievements extends LitElement {
     .view-more__wrap {
       display: flex;
       margin-top: 30px;
+      margin-bottom: 30px;
       justify-content: center;
     }
 
@@ -183,11 +184,13 @@ export class Achievements extends LitElement {
       .achievements-header {
         text-align: center;
         max-width: 440px;
-        margin: auto;
+        /* margin: auto; */
         margin-bottom: 50px;
         font-size: 27px !important ;
         line-height: 31px;
         font-weight: 700;
+        justify-content: center !important;
+        text-align: center !important;
       }
       .achievements-card__description {
         font-size: 19px;
