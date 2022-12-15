@@ -166,6 +166,42 @@ export class AboutCompany extends LitElement {
         margin-bottom: 30px;
         display: none;
       }
+
+      .about-company-right__sub-heading {
+        font-size: 24px !important ;
+        line-height: 29px;
+        font-weight: 700;
+      }
+
+      .about-company-right__heading {
+        font-size: 27px !important ;
+        line-height: 31px;
+        font-weight: 700;
+      }
+
+      .about-company-right__description {
+        font-size: 19px;
+        line-height: 32px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .about-company-right__sub-heading {
+        font-size: 24px !important ;
+        line-height: 29px;
+        font-weight: 700;
+      }
+
+      .about-company-right__heading {
+        font-size: 27px !important ;
+        line-height: 29px;
+        font-weight: 700;
+      }
+
+      .about-company-right__description {
+        font-size: 19px;
+        line-height: 32px;
+      }
     }
   `;
 
