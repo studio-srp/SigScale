@@ -24,14 +24,17 @@ export class Awards extends LitElement {
       text-transform: uppercase;
       letter-spacing: 0.15em;
       margin-bottom: 0px;
+      line-height: 29px;
     }
 
     .awards-section__header {
-      font-size: 36px;
+      font-size: 35px !important ;
       letter-spacing: 0.05em;
       font-family: "sf-pro-display-semi", sans-serif;
       margin-bottom: 30px;
       margin-top: 10px;
+      line-height: 31px;
+      font-weight: 700;
     }
 
     .awards-card {
@@ -57,16 +60,17 @@ export class Awards extends LitElement {
       /* padding: 0 3rem; */
     }
     .awards-card__header {
-      font-weight: 400;
+      font-weight: 700;
       margin-top: 30px;
       margin-bottom: 20px;
       font-size: 24px;
+      line-height: 29px;
       font-family: "sf-pro-display-semi", sans-serif;
     }
 
     .awards-card__description {
-      font-size: 16px;
-
+      font-size: 19px;
+      line-height: 32px;
       /* line-height: 19px; */
       color: var(--color-description);
     }
@@ -95,63 +99,29 @@ export class Awards extends LitElement {
         padding-right: 5rem !important;
       }
     }
-
-    @media (max-width: 576px) {
-      .awards-section-area-box {
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
-      }
-
-      .awards-section__header {
-        font-size: 21px;
-        margin-bottom: 30px;
-        margin-top: 0px;
-      }
-      .awards-section__sub-header {
-        color: var(--color-primary);
-        font-size: 16px;
-        padding-bottom: 5px;
-      }
-      .awards-card__description {
-        font-size: 15px;
-        text-align: justify;
-        letter-spacing: 0.03em;
-        font-weight: 100;
-      }
-      .awards-card__header {
-        font-size: 18px;
-        margin-top: 10px;
-      }
-      .awards-card__card-section {
-        padding: 30px 20px;
-      }
-      .awards-card-container {
-        padding: 40px 0;
-      }
-      .awards-card {
-        padding: 20px 20px;
-      }
-    }
     @media (max-width: 992px) {
       .awards-section-area-box {
         padding-left: 3rem !important;
         padding-right: 3rem !important;
       }
       .awards-section__header {
-        font-size: 23px;
+        font-size: 27px;
+        line-height: 29px;
         margin-bottom: 30px;
         margin-top: 0px;
       }
       .awards-section__sub-header {
         color: var(--color-primary);
-        font-size: 18px;
+        font-size: 24px;
+        line-height: 29px;
         padding-bottom: 5px;
       }
       .awards-card__description {
-        font-size: 16px;
+        font-size: 19px;
+        line-height: 32px;
         text-align: justify;
         letter-spacing: 0.03em;
-        font-weight: 100;
+        font-weight: 400;
       }
       .awards-card__header {
         font-size: 20px;
@@ -162,6 +132,47 @@ export class Awards extends LitElement {
       }
       .awards-card-container {
         padding: 50px 0;
+      }
+      .awards-card {
+        padding: 20px 20px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .awards-section-area-box {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+      }
+
+      .awards-section__header {
+        font-size: 27px;
+        line-height: 29px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+      }
+      .awards-section__sub-header {
+        color: var(--color-primary);
+        font-size: 24px;
+        line-height: 29px;
+        padding-bottom: 5px;
+      }
+      .awards-card__description {
+        font-size: 19px;
+        line-height: 32px;
+        text-align: justify;
+        letter-spacing: 0.03em;
+        font-weight: 100;
+      }
+      .awards-card__header {
+        font-size: 24px !important;
+        line-height: 29px;
+        margin-top: 10px;
+      }
+      .awards-card__card-section {
+        padding: 30px 20px;
+      }
+      .awards-card-container {
+        padding: 40px 0;
       }
       .awards-card {
         padding: 20px 20px;

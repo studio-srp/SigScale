@@ -18,26 +18,18 @@ export class OurServices extends LitElement {
                   class="our-services__card-image"
                 />
               </div>
-              <h3 class="our-services__card-header">
-                Online Charging System (OCS)
-              </h3>
+              <h3 class="our-services__card-header">Supscription Support</h3>
               <p class="our-services__card-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Numquam iste quas eius quibusdam, culpa autem nihil laudantium
-                delectus consequatur non provident animi beatae excepturi vitae
-                aliquid cumque.
+                We offer our CSP customers commercial subscription support
+                services to meet their business assurance requirements.
               </p>
               <p class="our-services__card-description">
-                Ipsam, et temporibus dolorum deleniti at quasi officia tenetur
-                non provident eum repudiandae obcaecati sunt sequi doloremque
-                modi quod voluptatum mollitia autem praesentium voluptatem minus
-                nostrum vel! Beatae atque similique repellat vel aliquid fuga
-                labore totam magnam qui, perspiciatis aperiam optio possimus
-                voluptatibus obcaecati saepe, cumque at voluptatum corrupti enim
-                voluptas. Suscipit, pariatur autem? Autem vero quae aut facilis,
-                iste necessitatibus perspiciatis commodi qui tempora nesciunt
-                doloremque, sint aliquam! Aliquid nostrum perferendis ipsa
-                ducimus blanditiis
+                While vendors of proprietary solutions will charge you relative
+                to the amount of your customer traffic, SigScale offers our
+                software license free. We charge relative to only your use of
+                our support resources. Subscription packages are sized to
+                include a guaranteed monthly minimum volume, availability
+                windows and response time to match your requirements.
               </p>
             </div>
 
@@ -49,16 +41,17 @@ export class OurServices extends LitElement {
                   class="our-services__card-image"
                 />
               </div>
-              <h3 class="our-services__card-header">
-                Online Charging System (OCS)
-              </h3>
+              <h3 class="our-services__card-header">Project Sponsorship</h3>
               <p class="our-services__card-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Numquam iste quas eius quibusdam, culpa autem nihil laudantium
-                delectus consequatur non provident animi beatae excepturi vitae
-                aliquid cumque.
+                Where our software projects require feature additions for full
+                coverage of your requirements a project sponsorship may be
+                available. To ensure our roadmap fits your project's timeline we
+                engage commercially on feature delivery. While all of our
+                software remains open source you can influence the product
+                direction and get those features you need implemented to suit
+                your requirements.
               </p>
-              <p class="our-services__card-description">
+              <!-- <p class="our-services__card-description">
                 Ipsam, et temporibus dolorum deleniti at quasi officia tenetur
                 non provident eum repudiandae obcaecati sunt sequi doloremque
                 modi quod voluptatum mollitia autem praesentium voluptatem minus
@@ -69,7 +62,7 @@ export class OurServices extends LitElement {
                 iste necessitatibus perspiciatis commodi qui tempora nesciunt
                 doloremque, sint aliquam! Aliquid nostrum perferendis ipsa
                 ducimus blanditiis
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
