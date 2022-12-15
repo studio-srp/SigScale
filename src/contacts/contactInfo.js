@@ -13,21 +13,21 @@ export class ContactInfo extends LitElement {
             scroll-snap-align: start;
         }
 
-        .contact-info__sub-header {
-            color: var(--color-primary);
-            font-size: 24px;
+        .section__sub-header {
             font-family: "sf-pro-display-semi", sans-serif;
+            color: var(--color-primary);
             text-transform: uppercase;
+            font-size: 24px;
             letter-spacing: 0.15em;
-            margin-bottom: 0px;
+            margin-bottom: 5px;
         }
 
-        .contact-info__header {
-            font-size: 36px;
-            letter-spacing: 0.05em;
+        .section__header {
             font-family: "sf-pro-display-semi", sans-serif;
-            margin-bottom: 30px;
-            margin-top: 10px;
+            font-size: 36px;
+            line-height: 42px;
+            margin: 0;
+            margin-bottom: 40px;
         }
 
         .contact-info__card-section {
@@ -92,7 +92,8 @@ export class ContactInfo extends LitElement {
         }
 
         .contact-info-area-box {
-            margin: auto auto;
+            margin: 0 auto;
+
             display: flex;
             flex-direction: column;
             max-width: 1400px;
@@ -145,8 +146,8 @@ export class ContactInfo extends LitElement {
         return html`
             <section class="contact-info">
                 <div class="contact-info-area-box">
-                    <h3 class="contact-info__sub-header">Find Us</h3>
-                    <h1 class="contact-info__header">Contact Information</h1>
+                    <h3 class="section__sub-header">Find Us</h3>
+                    <h1 class="section__header">Contact Information</h1>
                     <div class="contact-info__card-section">
                         <div class="contact-info__card">
                             <h4 class="contact-info__card-header">Sales</h4>

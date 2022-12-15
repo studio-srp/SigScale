@@ -44,7 +44,7 @@ export class OurSolutions extends LitElement {
         .our-solutions {
             min-height: 100vh;
             font-family: "sf-pro-text", sans-serif;
-            padding: 120px 0;
+            padding: 70px 0;
             scroll-snap-align: start;
         }
 
@@ -149,7 +149,7 @@ export class OurSolutions extends LitElement {
             }
 
             .our-solutions {
-                padding: 90px 0;
+                padding: 70px 0;
             }
         }
 
@@ -160,11 +160,15 @@ export class OurSolutions extends LitElement {
             .our-solutions__sub-header {
                 font-size: 20px;
             }
+
+            .our-solutions {
+                padding: 50px 0;
+            }
         }
 
         @media (max-width: 576px) {
             .our-solutions {
-                padding: 60px 0;
+                padding: 30px 0;
             }
             .our-solutions__sub-header {
                 text-align: center;

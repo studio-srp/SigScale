@@ -3,106 +3,101 @@ import serviceicon1 from "./../assets/icons/bulb-yellow.svg";
 import serviceicon2 from "./../assets/icons/bulb-yellow.svg";
 
 export class OurServices extends LitElement {
-  render() {
-    return html`
-      <section class="our-services">
-        <div class="our-services-area-box">
-          <h3 class="our-services__sub-header">Our services</h3>
-          <h1 class="our-services__header">How Can We Assist You</h1>
-          <div class="our-services__card-area">
-            <div class="our-services__card">
-              <div class="our-services__image-complex">
-                <img
-                  src=${serviceicon1}
-                  alt="bulb image"
-                  class="our-services__card-image"
-                />
-              </div>
-              <h3 class="our-services__card-header">
-                Online Charging System (OCS)
-              </h3>
-              <p class="our-services__card-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Numquam iste quas eius quibusdam, culpa autem nihil laudantium
-                delectus consequatur non provident animi beatae excepturi vitae
-                aliquid cumque.
-              </p>
-              <p class="our-services__card-description">
-                Ipsam, et temporibus dolorum deleniti at quasi officia tenetur
-                non provident eum repudiandae obcaecati sunt sequi doloremque
-                modi quod voluptatum mollitia autem praesentium voluptatem minus
-                nostrum vel! Beatae atque similique repellat vel aliquid fuga
-                labore totam magnam qui, perspiciatis aperiam optio possimus
-                voluptatibus obcaecati saepe, cumque at voluptatum corrupti enim
-                voluptas. Suscipit, pariatur autem? Autem vero quae aut facilis,
-                iste necessitatibus perspiciatis commodi qui tempora nesciunt
-                doloremque, sint aliquam! Aliquid nostrum perferendis ipsa
-                ducimus blanditiis
-              </p>
-            </div>
+    render() {
+        return html`
+            <section class="our-services">
+                <div class="our-services-area-box">
+                    <h3 class="section__sub-header">Our services</h3>
+                    <h1 class="section__header">How Can We Assist You</h1>
+                    <div class="our-services__card-area">
+                        <div class="our-services__card">
+                            <div class="our-services__image-complex">
+                                <img
+                                    src=${serviceicon1}
+                                    alt="bulb image"
+                                    class="our-services__card-image"
+                                />
+                            </div>
+                            <h3 class="our-services__card-header">Online Charging System (OCS)</h3>
+                            <p class="our-services__card-description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                                iste quas eius quibusdam, culpa autem nihil laudantium delectus
+                                consequatur non provident animi beatae excepturi vitae aliquid
+                                cumque.
+                            </p>
+                            <p class="our-services__card-description">
+                                Ipsam, et temporibus dolorum deleniti at quasi officia tenetur non
+                                provident eum repudiandae obcaecati sunt sequi doloremque modi quod
+                                voluptatum mollitia autem praesentium voluptatem minus nostrum vel!
+                                Beatae atque similique repellat vel aliquid fuga labore totam magnam
+                                qui, perspiciatis aperiam optio possimus voluptatibus obcaecati
+                                saepe, cumque at voluptatum corrupti enim voluptas. Suscipit,
+                                pariatur autem? Autem vero quae aut facilis, iste necessitatibus
+                                perspiciatis commodi qui tempora nesciunt doloremque, sint aliquam!
+                                Aliquid nostrum perferendis ipsa ducimus blanditiis
+                            </p>
+                        </div>
 
-            <div class="our-services__card">
-              <div class="our-services__image-complex">
-                <img
-                  src=${serviceicon2}
-                  alt="bulb image"
-                  class="our-services__card-image"
-                />
-              </div>
-              <h3 class="our-services__card-header">
-                Online Charging System (OCS)
-              </h3>
-              <p class="our-services__card-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Numquam iste quas eius quibusdam, culpa autem nihil laudantium
-                delectus consequatur non provident animi beatae excepturi vitae
-                aliquid cumque.
-              </p>
-              <p class="our-services__card-description">
-                Ipsam, et temporibus dolorum deleniti at quasi officia tenetur
-                non provident eum repudiandae obcaecati sunt sequi doloremque
-                modi quod voluptatum mollitia autem praesentium voluptatem minus
-                nostrum vel! Beatae atque similique repellat vel aliquid fuga
-                labore totam magnam qui, perspiciatis aperiam optio possimus
-                voluptatibus obcaecati saepe, cumque at voluptatum corrupti enim
-                voluptas. Suscipit, pariatur autem? Autem vero quae aut facilis,
-                iste necessitatibus perspiciatis commodi qui tempora nesciunt
-                doloremque, sint aliquam! Aliquid nostrum perferendis ipsa
-                ducimus blanditiis
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    `;
-  }
+                        <div class="our-services__card">
+                            <div class="our-services__image-complex">
+                                <img
+                                    src=${serviceicon2}
+                                    alt="bulb image"
+                                    class="our-services__card-image"
+                                />
+                            </div>
+                            <h3 class="our-services__card-header">Online Charging System (OCS)</h3>
+                            <p class="our-services__card-description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                                iste quas eius quibusdam, culpa autem nihil laudantium delectus
+                                consequatur non provident animi beatae excepturi vitae aliquid
+                                cumque.
+                            </p>
+                            <p class="our-services__card-description">
+                                Ipsam, et temporibus dolorum deleniti at quasi officia tenetur non
+                                provident eum repudiandae obcaecati sunt sequi doloremque modi quod
+                                voluptatum mollitia autem praesentium voluptatem minus nostrum vel!
+                                Beatae atque similique repellat vel aliquid fuga labore totam magnam
+                                qui, perspiciatis aperiam optio possimus voluptatibus obcaecati
+                                saepe, cumque at voluptatum corrupti enim voluptas. Suscipit,
+                                pariatur autem? Autem vero quae aut facilis, iste necessitatibus
+                                perspiciatis commodi qui tempora nesciunt doloremque, sint aliquam!
+                                Aliquid nostrum perferendis ipsa ducimus blanditiis
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        `;
+    }
 
-  static styles = css`
+    static styles = css`
     .our-services {
       min-height: 100vh;
       display: flex;
-      padding: 80px 0;
+      padding: 70px 0;
       font-family: "sf-pro-text", sans-serif;
       scroll-snap-align: start;
       /* background-color: green; */
     }
 
-    .our-services__sub-header {
-      color: var(--color-primary);
-      font-size: 24px;
-      font-family: "sf-pro-display-semi", sans-serif;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      margin-bottom: 0px;
-    }
+   .section__sub-header {
+            font-family: "sf-pro-display-semi", sans-serif;
+            color: var(--color-primary);
+            text-transform: uppercase;
+            font-size: 24px;
+            letter-spacing: 0.15em;
+            margin-bottom: 5px;
+        }
 
-    .our-services__header {
-      font-size: 35px;
-      letter-spacing: 0.05em;
-      font-family: "sf-pro-display-semi", sans-serif;
-      margin-bottom: 100px;
-      margin-top: 10px;
-    }
+
+    .section__header {
+            font-family: "sf-pro-display-semi", sans-serif;
+            font-size: 36px;
+            line-height: 42px;
+            margin: 0;
+            margin-bottom: 40px;
+        }
 
     .our-services__card {
       /* width: 100%; */
@@ -184,15 +179,12 @@ export class OurServices extends LitElement {
         padding-right: 2rem !important;
       }
 
-      .our-services__header {
+      .section__header {
         font-size: 21px;
-        margin-bottom: 30px;
-        margin-top: 0px;
       }
-      .our-services__sub-header {
-        color: var(--color-primary);
+      .section__sub-header {
         font-size: 16px;
-        padding-bottom:5px;
+       
       }
       .our-services__card-description {
         font-size: 15px;
@@ -216,15 +208,11 @@ export class OurServices extends LitElement {
         padding-right: 3rem !important;
       }
 
-      .our-services__header {
+      .section__header {
         font-size: 23px;
-        margin-bottom: 30px;
-        margin-top: 0px;
       }
-      .our-services__sub-header {
-        color: var(--color-primary);
+      .section__sub-header {
         font-size: 18px;
-        padding-bottom:5px;
       }
       .our-services__card-description {
         font-size: 16px;
@@ -239,8 +227,8 @@ export class OurServices extends LitElement {
         padding: 40px 30px;
       }
       .our-services {
-      padding: 50px 0;
-    }
+        padding: 30px 0;
+      }
   `;
 }
 
