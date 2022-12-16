@@ -77,7 +77,7 @@ export class About extends LitElement {
       /* display: block; */
       display: flex;
       min-height: 100vh;
-      /* scroll-snap-align: end; */
+      scroll-snap-align: start;
     }
 
     .about-left {

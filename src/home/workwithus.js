@@ -29,7 +29,7 @@ export class WorkWithUs extends LitElement {
       display: flex;
       font-family: "sf-pro-text", sans-serif;
       position: relative;
-      /* scroll-snap-align: start; */
+      scroll-snap-align: start;
     }
 
     .background-image {

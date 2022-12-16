@@ -52,7 +52,7 @@ export class Customers extends LitElement {
       background: #fafbfe;
       min-height: 100vh;
       display: flex;
-      /* scroll-snap-align: start; */
+      scroll-snap-align: start;
     }
 
     .customers-area__customers-left {

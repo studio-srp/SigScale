@@ -87,6 +87,7 @@ export class Solutions extends LitElement {
       position: relative;
       display: flex;
       justify-content: center;
+      scroll-snap-align: start;
     }
 
     .image-background-solutions {

@@ -84,7 +84,7 @@ export class Footer extends LitElement {
       justify-content: center;
       font-family: "sf-pro-text", sans-serif;
       position: relative;
-      /* scroll-snap-align: start; */
+      scroll-snap-align: start;
     }
 
     .footer-area-box {

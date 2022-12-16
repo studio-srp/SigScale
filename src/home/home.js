@@ -13,7 +13,7 @@ export class Home extends LitElement {
     .landing-banner {
       height: calc(100vh - 90px);
       width: 100vw;
-      /* scroll-snap-align: start; */
+      scroll-snap-align: start;
       overflow: hidden;
       position: relative;
     }
