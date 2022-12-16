@@ -6,11 +6,13 @@ export class WhyUs extends LitElement {
   static styles = css`
     .whyus-area-box {
       display: flex;
-      margin-bottom: auto;
+      /* margin-bottom: auto; */
       justify-content: space-between;
       max-width: 1400px;
       gap: 40px;
       margin: auto;
+      margin-bottom: 30px;
+      margin-top: 30px;
     }
 
     @media (min-width: 1200px) {
@@ -113,7 +115,7 @@ export class WhyUs extends LitElement {
       display: flex;
       justify-content: start;
       align-items: center;
-      margin-bottom: 3rem;
+      /* margin-bottom: 3rem; */
     }
 
     .why-us-right__content-box:last-child {
@@ -140,7 +142,7 @@ export class WhyUs extends LitElement {
     }
 
     .content-box__header {
-      font-size: 30px;
+      font-size: 24px;
       line-height: 29px;
       margin-bottom: 10px;
     }
@@ -186,7 +188,7 @@ export class WhyUs extends LitElement {
       .why-us-left__sub-heading {
         font-size: 24px !important ;
  line-height: 29px;
- font-weight: 700;
+ font-weight: 700;}
     .why-us-left__heading {
         font-size: 27px !important ;
  line-height: 31px;

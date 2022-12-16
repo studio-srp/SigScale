@@ -67,7 +67,7 @@ export class Customers extends LitElement {
 
     .customers-area__customer-card {
       width: 30%;
-      justify-content: center !important;
+
       /* padding: 1rem; */
     }
 

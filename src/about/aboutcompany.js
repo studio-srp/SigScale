@@ -186,6 +186,13 @@ export class AboutCompany extends LitElement {
     }
 
     @media (max-width: 576px) {
+      .about-company-right {
+        width: 100%;
+        margin: auto;
+        padding-left: 3rem !important ;
+        padding-right: 3rem !important ;
+      }
+
       .about-company-right__sub-heading {
         font-size: 24px !important ;
         line-height: 29px;
