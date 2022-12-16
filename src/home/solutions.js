@@ -83,11 +83,10 @@ export class Solutions extends LitElement {
     .solutions {
       width: 100vw;
       font-family: "sf-pro-text", sans-serif;
-      display: block;
       min-height: 100vh;
       position: relative;
-      /* scroll-snap-align: start; */
       display: flex;
+      justify-content: center;
     }
 
     .image-background-solutions {
@@ -190,6 +189,9 @@ export class Solutions extends LitElement {
     }
 
     @media (max-width: 1400px) {
+      .solutions-area-box {
+        padding: 0 !important;
+      }
     }
 
     @media (max-width: 1200px) {
@@ -274,9 +276,9 @@ export class Solutions extends LitElement {
     }
 
     .solutions-area-box {
-      margin: auto auto;
+      margin: auto;
       display: flex;
-      max-width: 1400px;
+      width: 100%;
       align-items: center;
       justify-content: space-between;
       height: 100%;
@@ -300,7 +302,7 @@ export class Solutions extends LitElement {
 
     @media (min-width: 1400px) {
       .solutions-area-box {
-        max-width: 1400px;
+        max-width: 1400px !important;
       }
     }
 
@@ -308,6 +310,7 @@ export class Solutions extends LitElement {
       .solutions-area-box {
         padding-left: 5rem !important;
         padding-right: 5rem !important;
+        margin: auto 0;
       }
     }
 
