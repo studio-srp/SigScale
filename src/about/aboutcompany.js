@@ -4,7 +4,7 @@ import aboutImage from "./../assets/images/about-us-banner.png";
 export class AboutCompany extends LitElement {
   static styles = css`
     .about-area-box {
-      margin: auto auto;
+      margin: 3rem auto;
       display: flex;
       max-width: 1400px;
       align-items: center;
@@ -43,7 +43,6 @@ export class AboutCompany extends LitElement {
 
     .about-company {
       min-height: 100vh;
-      background-color: red;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -72,6 +71,7 @@ export class AboutCompany extends LitElement {
       line-height: 29px;
       font-weight: 700;
       letter-spacing: 0.15em;
+      margin-top: 0;
       margin-bottom: 5px;
     }
 
@@ -91,6 +91,7 @@ export class AboutCompany extends LitElement {
 
     .about-company-right__description:last-child {
       margin-top: 15px;
+      margin-bottom: 0;
     }
 
     .about-company-right__btn-complex {
@@ -147,7 +148,7 @@ export class AboutCompany extends LitElement {
     @media (max-width: 992px) {
       .about-company {
         min-height: auto !important;
-        padding: 4rem 0;
+        /* padding: 4rem 0; */
       }
 
       .about-area-box {
@@ -189,8 +190,8 @@ export class AboutCompany extends LitElement {
       .about-company-right {
         width: 100%;
         margin: auto;
-        padding-left: 3rem !important ;
-        padding-right: 3rem !important ;
+        /* padding-left: 3rem !important ;
+        padding-right: 3rem !important ; */
       }
 
       .about-company-right__sub-heading {

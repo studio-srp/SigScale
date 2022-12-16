@@ -52,6 +52,8 @@ export class Customers extends LitElement {
       background: #fafbfe;
       min-height: 100vh;
       display: flex;
+      align-items: center;
+      justify-content: center;
       /* scroll-snap-align: start; */
     }
 
@@ -64,6 +66,7 @@ export class Customers extends LitElement {
 
     .customers-area__customer-card {
       width: 30%;
+
       /* padding: 1rem; */
     }
 
@@ -72,6 +75,7 @@ export class Customers extends LitElement {
       flex-direction: row;
       justify-content: flex-end;
       width: 30%;
+      background: rgb(250, 251, 254);
     }
     .customers-area__customers-right__card {
       max-width: 360px;
@@ -84,9 +88,10 @@ export class Customers extends LitElement {
     .customers-area__customers-right__card-heading {
       font-size: 35px !important ;
       line-height: 31px;
-      margin-bottom: 2rem;
+      padding-bottom: 2rem;
       font-weight: 700;
       letter-spacing: -0.02em;
+      margin: 0;
       color: white;
       font-family: "sf-pro-display-semi", sans-serif;
     }
@@ -140,11 +145,6 @@ export class Customers extends LitElement {
       .cta-btn__primary-customers {
         width: 100%;
       }
-      .customers-area__customers-right__card-heading {
-        font-size: 35px !important ;
-        line-height: 31px;
-        font-weight: 700;
-      }
     }
 
     @media (max-width: 1200px) {
@@ -167,9 +167,9 @@ export class Customers extends LitElement {
 
       .customers-area__customers-right__card-heading {
         color: black;
-        font-size: 35px !important ;
-        line-height: 31px;
+        font-size: 30px;
         font-weight: 700;
+        line-height: 39px;
       }
 
       .cta-desktop-customers {
@@ -187,6 +187,12 @@ export class Customers extends LitElement {
 
       .cta-mobile-customers:hover {
         background-color: #e4971b;
+      }
+
+      .customers-area__customer-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
 
@@ -220,15 +226,10 @@ export class Customers extends LitElement {
     }
 
     @media (max-width: 576px) {
-      .customers-area__customers-right__card-heading {
-        font-size: 27px !important ;
-        line-height: 29px;
-        font-weight: 700;
-      }
     }
 
     .customers-area-box {
-      margin: auto auto;
+      margin: 3rem auto;
       display: flex;
       max-width: 1400px;
       align-items: center;
@@ -270,8 +271,12 @@ export class Customers extends LitElement {
         padding-left: 2rem !important;
         padding-right: 2rem !important;
       }
+      .customers-area__customers-right__card-heading {
+        font-size: 27px !important ;
+        line-height: 31px;
+        font-weight: 700;
+      }
     }
   `;
 }
-
 window.customElements.define("about-customers", Customers);

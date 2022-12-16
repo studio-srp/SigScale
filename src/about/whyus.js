@@ -6,13 +6,11 @@ export class WhyUs extends LitElement {
   static styles = css`
     .whyus-area-box {
       display: flex;
-      /* margin-bottom: auto; */
       justify-content: space-between;
       max-width: 1400px;
-      gap: 40px;
-      margin: auto;
-      margin-bottom: 30px;
-      margin-top: 30px;
+      /* gap: 40px; */
+      margin: 3rem auto;
+     
     }
 
     @media (min-width: 1200px) {
@@ -49,6 +47,7 @@ export class WhyUs extends LitElement {
       display: flex;
       align-items: center;
       font-family: "sf-pro-text", sans-serif;
+      /* gap: 3rem; */
      /* scroll-snap-align: start; */
     }
 
@@ -109,7 +108,8 @@ export class WhyUs extends LitElement {
     }
 
     .why-us-right {
-      width: 55%;
+      /* width: 58%; */
+      margin-left: 3rem;
     }
     .why-us-right__content-box {
       display: flex;
@@ -142,14 +142,15 @@ export class WhyUs extends LitElement {
     }
 
     .content-box__header {
-      font-size: 24px;
-      line-height: 29px;
-      margin-bottom: 10px;
+      font-size: 20px;
+      /* line-height: 29px; */
+      
+      margin-bottom: 5px;
     }
 
     .content-box__description {
-      font-size: 19px;
-      line-height: 32px;
+      font-size: 16px;
+      line-height: 20px;
       color: var(--color-description);
     }
 
@@ -177,6 +178,7 @@ export class WhyUs extends LitElement {
         justify-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-left: 0;
       }
 
       .why-us-right__content-box {
@@ -187,22 +189,19 @@ export class WhyUs extends LitElement {
 
       .why-us-left__sub-heading {
         font-size: 24px !important ;
- line-height: 29px;
- font-weight: 700;}
-    .why-us-left__heading {
+        line-height: 29px;
+        font-weight: 700;
+      }
+      .why-us-left__heading {
         font-size: 27px !important ;
- line-height: 31px;
- font-weight: 700;
-    }
+        line-height: 31px;
+        font-weight: 700;
+      }
       .content-box__header {
-        font-size: 24px !important;
- line-height: 29px;
-    }
-
-    .content-box__description {
-        font-size: 19px;
-      line-height: 32px;
-    }
+        margin-top: 0;
+        /* font-size: 24px !important; */
+        /* line-height: 29px; */
+      }
     }
 
     @media (max-width: 786px) {
@@ -220,6 +219,7 @@ export class WhyUs extends LitElement {
       }
       .content-box__header {
         /* font-size: 16px; */
+        margin-top: 1.5rem;
         text-align: center;
       }
       .content-box__description {

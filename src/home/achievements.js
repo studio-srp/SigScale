@@ -90,15 +90,15 @@ export class Achievements extends LitElement {
 
     .achievements-card__image {
       height: 300px;
-      margin-bottom: 20px;
     }
+
     .achievements-card-content {
       text-align: left;
       padding: 0 3rem;
     }
     .achievements-card__header {
       line-height: 95.69%;
-      font-size: 24px !important ;
+      font-size: 20px !important ;
       line-height: 29px;
       font-weight: 700;
       font-family: "sf-pro-display-semi", sans-serif;
@@ -107,7 +107,7 @@ export class Achievements extends LitElement {
     .achievements-header {
       font-family: "sf-pro-display-semi", sans-serif;
       font-size: 35px !important ;
-      line-height: 31px;
+      /* line-height: 31  px; */
       font-weight: 700;
       /* margin: auto; */
       margin-top: 0;
@@ -115,8 +115,8 @@ export class Achievements extends LitElement {
     }
 
     .achievements-card__description {
-      font-size: 19px;
-      line-height: 32px;
+      font-size: 16 px;
+      line-height: 20px;
       color: var(--color-description);
     }
 
