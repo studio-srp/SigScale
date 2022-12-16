@@ -229,13 +229,13 @@ export class About extends LitElement {
 
     @media (min-width: 1400px) {
       .about-area-box {
-        max-width: 1400px;
+        max-width: 1400px !important;
       }
     }
 
     @media (min-width: 1200px) {
       .about-area-box {
-        /* max-width: 1140px; */
+        max-width: 1140px;
         padding-left: 5rem !important;
         padding-right: 5rem !important;
       }
