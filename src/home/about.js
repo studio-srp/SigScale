@@ -14,24 +14,20 @@ export class About extends LitElement {
           <div class="about-header-area">
             <h2 class="about-left__header">You Cannot Use Up Creativity</h2>
             <p class="about-left__description">
-              SigScale is an open source company focused on software solutions
-              for communications service providers (CSP).
+              SigScale is an open source company focused on software solutions for communications
+              service providers (CSP).
             </p>
             <p class="about-left__description">
-              Our core competency is in signaling and distributed fault tolerant
-              systems. We have developed our own protocol stacks (SIGTRAN, TCAP,
-              CAP, MAP, NGAP, RADIUS, EAP) in Erlang, allowing us to build
-              microservices with very low footprint and massive scalability.
+              Our core competency is in signaling and distributed fault tolerant systems. We have
+              developed our own protocol stacks (SIGTRAN, TCAP, CAP, MAP, NGAP, RADIUS, EAP) in
+              Erlang, allowing us to build microservices with very low footprint and massive
+              scalability.
             </p>
           </div>
 
           <div class="about-card-area">
             <div class="about-left__card">
-              <img
-                src=${computerGif}
-                alt="computer Icon"
-                class="about-left__card--image"
-              />
+              <img src=${computerGif} alt="computer Icon" class="about-left__card--image" />
               <div class="about-left__card-content-box">
                 <h4 class="about-left__card-content-box_header">Experience</h4>
                 <p class="about-left__card-content-box_description">
@@ -41,15 +37,9 @@ export class About extends LitElement {
             </div>
 
             <div class="about-left__card">
-              <img
-                src=${headPhone}
-                alt="computer Icon"
-                class="about-left__card--image"
-              />
+              <img src=${headPhone} alt="computer Icon" class="about-left__card--image" />
               <div class="about-left__card-content-box">
-                <h4 class="about-left__card-content-box_header">
-                  Quick Support
-                </h4>
+                <h4 class="about-left__card-content-box_header">Quick Support</h4>
                 <p class="about-left__card-content-box_description">
                   We'll help you test bold new ideas while sharing you.
                 </p>
@@ -84,10 +74,10 @@ export class About extends LitElement {
     .about {
       font-family: "sf-pro-text", sans-serif;
       /* padding: 30px 0; */
-      display: block;
+      /* display: block; */
       display: flex;
       min-height: 100vh;
-      scroll-snap-align: start;
+      /* scroll-snap-align: end; */
     }
 
     .about-left {
@@ -98,10 +88,9 @@ export class About extends LitElement {
     }
 
     .about-left__header {
-      font-size: 35px !important ;
+      font-size: 35px !important ; //36
       line-height: 31px;
       font-weight: 700;
-      /* line-height: 97%; */
       letter-spacing: -0.0015em;
       max-width: 350px;
       margin-bottom: 20px;
@@ -109,9 +98,8 @@ export class About extends LitElement {
     }
 
     .about-left__description {
-      font-size: 19px;
+      font-size: 19px; //14
       line-height: 32px;
-      /* line-height: 17px; */
       font-weight: 400;
       letter-spacing: -0.005em;
       max-width: 80%;
@@ -133,7 +121,7 @@ export class About extends LitElement {
     }
 
     .about-left__card-content-box_header {
-      font-size: 24px !important ;
+      font-size: 24px !important; //20
       line-height: 29px;
       font-weight: 700;
       margin-top: 0px !important ;
@@ -144,7 +132,7 @@ export class About extends LitElement {
     }
 
     .about-left__card-content-box_description {
-      font-size: 19px;
+      font-size: 19px; //16
       line-height: 32px;
       font-family: "sf-pro-text", sans-serif;
       color: var(--color-description);
@@ -160,7 +148,7 @@ export class About extends LitElement {
     }
 
     .about-right__intro-video__content {
-      font-size: 19px;
+      font-size: 19px; // 16
       line-height: 32px;
       display: flex;
       background-color: var(--color-primary);

@@ -7,24 +7,17 @@ export class WorkWithUs extends LitElement {
       <section class="contact">
         <div class="contact-area-box">
           <h3 class="contact-subheading">want to work with us</h3>
-          <h1 class="contact-heading">
-            Digitally transform and grow your business!
-          </h1>
+          <h1 class="contact-heading">Digitally transform and grow your business!</h1>
 
           <p class="contact-paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud consectetur voluptatem accusantium
-            doloremque adipiscing elit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            consectetur voluptatem accusantium doloremque adipiscing elit.
           </p>
 
           <a class="cta-btn__primary margin-top-medium">Contact Us</a>
         </div>
-        <img
-          src=${backgroundImage}
-          alt="background image"
-          class="background-image"
-        />
+        <img src=${backgroundImage} alt="background image" class="background-image" />
       </section>
     `;
   }
@@ -36,7 +29,7 @@ export class WorkWithUs extends LitElement {
       display: flex;
       font-family: "sf-pro-text", sans-serif;
       position: relative;
-      scroll-snap-align: start;
+      /* scroll-snap-align: start; */
     }
 
     .background-image {

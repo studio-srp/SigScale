@@ -24,63 +24,32 @@ export class Footer extends LitElement {
   render() {
     return html`
       <footer class="footer">
-        <img
-          src=${background}
-          alt="background image"
-          class="background-image"
-        />
+        <img src=${background} alt="background image" class="background-image" />
         <div class="footer-area-box">
           <div class="footer-area">
             <div class="footer-section">
-              <img
-                src=${brandLogo}
-                alt="brand logo"
-                class="footer-branch-logo"
-              />
+              <img src=${brandLogo} alt="brand logo" class="footer-branch-logo" />
               <p class="footer-area__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                corporis quod odio officia accusamus necessitatibus nemo
-                consequatur ipsam cupiditate ut.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis quod odio
+                officia accusamus necessitatibus nemo consequatur ipsam cupiditate ut.
               </p>
             </div>
             <div class="footer-section">
               <div class="footer-section__links">
-                <a
-                  href="/about"
-                  @mousedown="${this.menuHandler}"
-                  class="footer-links"
-                  >About</a
-                >
-                <a
-                  href="/solutions"
-                  @mousedown="${this.menuHandler}"
-                  class="footer-links"
+                <a href="/about" @mousedown="${this.menuHandler}" class="footer-links">About</a>
+                <a href="/solutions" @mousedown="${this.menuHandler}" class="footer-links"
                   >Solutions</a
                 >
-                <a
-                  href="/services"
-                  @mousedown="${this.menuHandler}"
-                  class="footer-links"
+                <a href="/services" @mousedown="${this.menuHandler}" class="footer-links"
                   >Services</a
                 >
               </div>
               <div class="footer-section__links">
-                <a
-                  href="/projects"
-                  @mousedown="${this.menuHandler}"
-                  class="footer-links"
+                <a href="/projects" @mousedown="${this.menuHandler}" class="footer-links"
                   >Projects</a
                 >
-                <a
-                  href="/awards"
-                  @mousedown="${this.menuHandler}"
-                  class="footer-links"
-                  >Awards</a
-                >
-                <a
-                  href="/contacts"
-                  @mousedown="${this.menuHandler}"
-                  class="footer-links"
+                <a href="/awards" @mousedown="${this.menuHandler}" class="footer-links">Awards</a>
+                <a href="/contacts" @mousedown="${this.menuHandler}" class="footer-links"
                   >Contacts</a
                 >
               </div>
@@ -88,9 +57,7 @@ export class Footer extends LitElement {
           </div>
           <div class="hr-line"></div>
           <div class="footer-bottom-bar">
-            <p class="footer-area__copyright">
-              &copy; 2022 All right reserved by Sigscale
-            </p>
+            <p class="footer-area__copyright">&copy; 2022 All right reserved by Sigscale</p>
             <a href="#" class="linedin-link">
               <img src=${linkedIn} alt="linkedin icon" />
             </a>
@@ -117,7 +84,7 @@ export class Footer extends LitElement {
       justify-content: center;
       font-family: "sf-pro-text", sans-serif;
       position: relative;
-      scroll-snap-align: start;
+      /* scroll-snap-align: start; */
     }
 
     .footer-area-box {

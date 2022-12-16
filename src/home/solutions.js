@@ -16,19 +16,13 @@ export class Solutions extends LitElement {
             <h2 class="solutions-left__header">
               We deliver solutions with the goal of trusting workships
             </h2>
-            <a class="cta-btn__primary margin-top-medium cta-desktop"
-              >Explore more</a
-            >
+            <a class="cta-btn__primary margin-top-medium cta-desktop">Explore more</a>
           </div>
           <div class="solutions-right">
             <div class="solutions-right__card-section">
               <div class="solutions-right__card">
                 <div class="solutions-right__card-image__container">
-                  <img
-                    src=${dollerGif}
-                    alt="image of doller"
-                    class="solutions-right__card-image"
-                  />
+                  <img src=${dollerGif} alt="image of doller" class="solutions-right__card-image" />
                 </div>
                 <p class="solutions-right__card-description margin-top-x-small">
                   Online charging system
@@ -36,11 +30,7 @@ export class Solutions extends LitElement {
               </div>
               <div class="solutions-right__card">
                 <div class="solutions-right__card-image__container">
-                  <img
-                    src=${todoList}
-                    alt="todo list image"
-                    class="solutions-right__card-image"
-                  />
+                  <img src=${todoList} alt="todo list image" class="solutions-right__card-image" />
                 </div>
                 <p class="solutions-right__card-description margin-top-x-small">
                   Resource Inventory Management
@@ -48,11 +38,7 @@ export class Solutions extends LitElement {
               </div>
               <div class="solutions-right__card">
                 <div class="solutions-right__card-image__container">
-                  <img
-                    src=${noConnection}
-                    alt=""
-                    class="solutions-right__card-image"
-                  />
+                  <img src=${noConnection} alt="" class="solutions-right__card-image" />
                 </div>
                 <p class="solutions-right__card-description margin-top-x-small">
                   <span class="uppercase">diameter</span> signaling controller
@@ -61,11 +47,7 @@ export class Solutions extends LitElement {
 
               <div class="solutions-right__card">
                 <div class="solutions-right__card-image__container">
-                  <img
-                    src=${mobileGif}
-                    alt=""
-                    class="solutions-right__card-image"
-                  />
+                  <img src=${mobileGif} alt="" class="solutions-right__card-image" />
                 </div>
                 <p class="solutions-right__card-description margin-top-x-small">
                   mobile application part
@@ -73,11 +55,7 @@ export class Solutions extends LitElement {
               </div>
               <div class="solutions-right__card">
                 <div class="solutions-right__card-image__container">
-                  <img
-                    src=${gpsGif}
-                    alt=""
-                    class="solutions-right__card-image"
-                  />
+                  <img src=${gpsGif} alt="" class="solutions-right__card-image" />
                 </div>
                 <p class="solutions-right__card-description margin-top-x-small">
                   Resource Inventory Management
@@ -85,11 +63,7 @@ export class Solutions extends LitElement {
               </div>
               <div class="solutions-right__card">
                 <div class="solutions-right__card-image__container">
-                  <img
-                    src=${informationGif}
-                    alt=""
-                    class="solutions-right__card-image"
-                  />
+                  <img src=${informationGif} alt="" class="solutions-right__card-image" />
                 </div>
                 <p class="solutions-right__card-description margin-top-x-small">
                   SigScale <span class="uppercase">mib</span>
@@ -98,16 +72,10 @@ export class Solutions extends LitElement {
             </div>
           </div>
 
-          <a class="cta-btn__primary margin-top-large cta-mobile"
-            >Explore more</a
-          >
+          <a class="cta-btn__primary margin-top-large cta-mobile">Explore more</a>
         </div>
 
-        <img
-          src=${imageBackground}
-          alt="image background"
-          class="image-background-solutions"
-        />
+        <img src=${imageBackground} alt="image background" class="image-background-solutions" />
       </section>
     `;
   }
@@ -118,7 +86,7 @@ export class Solutions extends LitElement {
       display: block;
       min-height: 100vh;
       position: relative;
-      scroll-snap-align: start;
+      /* scroll-snap-align: start; */
       display: flex;
     }
 

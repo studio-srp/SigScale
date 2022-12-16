@@ -36,13 +36,10 @@ export class Customers extends LitElement {
               <h3 class="customers-area__customers-right__card-heading">
                 We have the privilege of working with exceptional customers
               </h3>
-              <a
-                class="cta-btn__primary-customers margin-top-medium cta-desktop-customers"
+              <a class="cta-btn__primary-customers margin-top-medium cta-desktop-customers"
                 >View more</a
               >
-              <a class="cta-btn__primary margin-top-medium cta-mobile-customers"
-                >View more</a
-              >
+              <a class="cta-btn__primary margin-top-medium cta-mobile-customers">View more</a>
             </div>
           </div>
         </div>
@@ -55,7 +52,7 @@ export class Customers extends LitElement {
       background: #fafbfe;
       min-height: 100vh;
       display: flex;
-      scroll-snap-align: start;
+      /* scroll-snap-align: start; */
     }
 
     .customers-area__customers-left {

@@ -9,68 +9,48 @@ export class Achievements extends LitElement {
       <section class="achievements">
         <div class="achievements-area-box">
           <div class="achievements-section">
-            <h1 class="achievements-header">
-              Check out our latest achievements
-            </h1>
+            <h1 class="achievements-header">Check out our latest achievements</h1>
             <div class="achievements-card-section margin-top-large">
               <div class="achievements-card">
-                <img
-                  src=${awards1}
-                  alt="award image"
-                  class="achievements-card__image"
-                />
+                <img src=${awards1} alt="award image" class="achievements-card__image" />
                 <div class="achievements-card-content">
                   <h3 class="achievements-card__header">
                     Award for Best use of Open Digital Framework
                   </h3>
                   <p class="achievements-card__description margin-top-small">
-                    SigScale is proud to share the award for Best use of ODF at
-                    the 2021 Catalyst Awards with champions...
+                    SigScale is proud to share the award for Best use of ODF at the 2021 Catalyst
+                    Awards with champions...
                   </p>
 
-                  <a href="#" class="achievements-card__link margin-top-small"
-                    >Read More &rarr;</a
-                  >
+                  <a href="#" class="achievements-card__link margin-top-small">Read More &rarr;</a>
                 </div>
               </div>
               <div class="achievements-card">
-                <img
-                  src=${awards2}
-                  alt="award image"
-                  class="achievements-card__image"
-                />
+                <img src=${awards2} alt="award image" class="achievements-card__image" />
                 <div class="achievements-card-content">
                   <h3 class="achievements-card__header">
                     Award for Best use of Open Digital Framework
                   </h3>
                   <p class="achievements-card__description margin-top-small">
-                    SigScale is proud to share the award for Best use of ODF at
-                    the 2021 Catalyst Awards with champions...
+                    SigScale is proud to share the award for Best use of ODF at the 2021 Catalyst
+                    Awards with champions...
                   </p>
 
-                  <a href="#" class="achievements-card__link margin-top-small"
-                    >Read More &rarr;</a
-                  >
+                  <a href="#" class="achievements-card__link margin-top-small">Read More &rarr;</a>
                 </div>
               </div>
               <div class="achievements-card">
-                <img
-                  src=${awards3}
-                  alt="award image"
-                  class="achievements-card__image"
-                />
+                <img src=${awards3} alt="award image" class="achievements-card__image" />
                 <div class="achievements-card-content">
                   <h3 class="achievements-card__header">
                     Award for Best use of Open Digital Framework
                   </h3>
                   <p class="achievements-card__description margin-top-small">
-                    SigScale is proud to share the award for Best use of ODF at
-                    the 2021 Catalyst Awards with champions...
+                    SigScale is proud to share the award for Best use of ODF at the 2021 Catalyst
+                    Awards with champions...
                   </p>
 
-                  <a href="#" class="achievements-card__link margin-top-small"
-                    >Read More &rarr;</a
-                  >
+                  <a href="#" class="achievements-card__link margin-top-small">Read More &rarr;</a>
                 </div>
               </div>
             </div>
@@ -88,7 +68,7 @@ export class Achievements extends LitElement {
       min-height: 100vh;
       display: flex;
       align-items: center;
-      scroll-snap-align: start;
+      /* scroll-snap-align: start; */
     }
     .achievements-card-section {
       display: flex;
