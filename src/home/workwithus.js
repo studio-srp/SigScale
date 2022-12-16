@@ -29,7 +29,8 @@ export class WorkWithUs extends LitElement {
       display: flex;
       font-family: "sf-pro-text", sans-serif;
       position: relative;
-      scroll-snap-align: start;
+      align-items: center;
+      /* scroll-snap-align: start; */
     }
 
     .background-image {
@@ -78,6 +79,7 @@ export class WorkWithUs extends LitElement {
       font-size: 35px !important ;
       line-height: 31px;
       font-weight: 700;
+      margin-top: 0;
       /* line-height: 54px; */
       letter-spacing: -0.03em;
       text-align: center;
@@ -159,7 +161,7 @@ export class WorkWithUs extends LitElement {
     }
 
     .contact-area-box {
-      margin: auto auto;
+      margin: 3rem auto;
       display: flex;
       max-width: 1400px;
       align-items: center;

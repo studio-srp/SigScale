@@ -78,13 +78,13 @@ export class Footer extends LitElement {
 
     .footer {
       width: 100%;
-      padding: 6rem 0;
+      padding: 3rem 0;
       display: flex;
       align-items: center;
       justify-content: center;
       font-family: "sf-pro-text", sans-serif;
       position: relative;
-      scroll-snap-align: start;
+      /* scroll-snap-align: start; */
     }
 
     .footer-area-box {

@@ -49,7 +49,7 @@ export class WhyUs extends LitElement {
       display: flex;
       align-items: center;
       font-family: "sf-pro-text", sans-serif;
-      scroll-snap-align: start;
+     /* scroll-snap-align: start; */
     }
 
     .overlay {
@@ -263,11 +263,7 @@ export class WhyUs extends LitElement {
       <section class="why-us">
         <div class="whyus-area-box">
           <div class="why-us-left">
-            <img
-              src=${backgroundImage}
-              alt="background image"
-              class="background-image"
-            />
+            <img src=${backgroundImage} alt="background image" class="background-image" />
             <div class="overlay"></div>
             <div class="why-us-left__content">
               <h3 class="why-us-left__sub-heading">about company</h3>
@@ -282,8 +278,8 @@ export class WhyUs extends LitElement {
               <div class="content-box__content">
                 <h4 class="content-box__header">Lorem ipsum dolor sit amet</h4>
                 <p class="content-box__description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt
                 </p>
               </div>
             </div>
@@ -295,8 +291,8 @@ export class WhyUs extends LitElement {
               <div class="content-box__content">
                 <h4 class="content-box__header">Lorem ipsum dolor sit amet</h4>
                 <p class="content-box__description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt
                 </p>
               </div>
             </div>
@@ -307,8 +303,8 @@ export class WhyUs extends LitElement {
               <div class="content-box__content">
                 <h4 class="content-box__header">Lorem ipsum dolor sit amet</h4>
                 <p class="content-box__description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt
                 </p>
               </div>
             </div>
@@ -320,8 +316,8 @@ export class WhyUs extends LitElement {
               <div class="content-box__content">
                 <h4 class="content-box__header">Lorem ipsum dolor sit amet</h4>
                 <p class="content-box__description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt
                 </p>
               </div>
             </div>

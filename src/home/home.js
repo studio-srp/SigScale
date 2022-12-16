@@ -11,11 +11,12 @@ import "./../footer/footer.js";
 export class Home extends LitElement {
   static styles = css`
     .landing-banner {
-      height: calc(100vh - 90px);
+      /* height: calc(100vh - 90px); */
       width: 100vw;
-      scroll-snap-align: start;
+      /* scroll-snap-align: start; */
       overflow: hidden;
       position: relative;
+      min-height: calc(-90px + 100vh);
     }
 
     .background-image-home-landing {
@@ -36,13 +37,15 @@ export class Home extends LitElement {
       margin-bottom: 90px;
     }
     .landing-banner__header {
-      padding-top: 5vh;
+      /* padding-top: 5vh; */
       color: white;
       font-family: "sf-pro-display-semi", sans-serif;
       font-weight: 600;
       font-size: 96px;
       line-height: 90%;
       letter-spacing: -0.06em;
+      margin-bottom: 50px;
+      margin-top: 50px;
     }
 
     .banner-highlight {
@@ -76,7 +79,7 @@ export class Home extends LitElement {
       align-items: center;
       height: 100%;
       position: relative;
-      background-color: transparent;
+      background-color: red;
     }
 
     @media (max-width: 992px) {
@@ -128,9 +131,10 @@ export class Home extends LitElement {
     }
 
     .content-wrapper {
+      box-sizing: border-box;
       z-index: 5;
       position: relative;
-      height: 100%;
+      min-height: calc(-90px + 100vh);
       width: 500px;
     }
   `;

@@ -52,7 +52,8 @@ export class Customers extends LitElement {
       background: #fafbfe;
       min-height: 100vh;
       display: flex;
-      scroll-snap-align: start;
+      align-items: center;
+      /* scroll-snap-align: start; */
     }
 
     .customers-area__customers-left {
@@ -77,7 +78,7 @@ export class Customers extends LitElement {
     }
     .customers-area__customers-right__card {
       max-width: 360px;
-      padding: 60px 60px;
+      padding: 40px 40px;
       background-color: #04213d;
       border-radius: 10px;
       text-align: center;
@@ -86,8 +87,10 @@ export class Customers extends LitElement {
     .customers-area__customers-right__card-heading {
       font-size: 35px !important ;
       line-height: 31px;
+      padding-bottom: 2rem;
       font-weight: 700;
       letter-spacing: -0.02em;
+      margin: 0;
       color: white;
       font-family: "sf-pro-display-semi", sans-serif;
     }
@@ -184,6 +187,12 @@ export class Customers extends LitElement {
       .cta-mobile-customers:hover {
         background-color: #e4971b;
       }
+
+      .customers-area__customer-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
 
     @media (max-width: 992px) {
@@ -219,7 +228,7 @@ export class Customers extends LitElement {
     }
 
     .customers-area-box {
-      margin: auto auto;
+      margin: 3rem auto;
       display: flex;
       max-width: 1400px;
       align-items: center;

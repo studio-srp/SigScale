@@ -10,7 +10,7 @@ export class ContactInfo extends LitElement {
       font-family: "sf-pro-text", sans-serif;
       padding: 70px 0;
       display: flex;
-      scroll-snap-align: start;
+      /* scroll-snap-align: start; */
     }
 
     .section__sub-header {
@@ -207,8 +207,8 @@ export class ContactInfo extends LitElement {
             <div class="contact-info__card">
               <h4 class="contact-info__card-header">Sales</h4>
               <p class="contact-info__card-description">
-                Please address inquiries about commercial sales and support
-                about sigscale to this contact details:
+                Please address inquiries about commercial sales and support about sigscale to this
+                contact details:
               </p>
 
               <div class="contact-info__card-links">
@@ -225,14 +225,12 @@ export class ContactInfo extends LitElement {
             <div class="contact-info__card">
               <h4 class="contact-info__card-header">Support</h4>
               <p class="contact-info__card-description">
-                Everyone is welcome to contact us with questions or issues
-                around installing and using our open source software:
+                Everyone is welcome to contact us with questions or issues around installing and
+                using our open source software:
               </p>
               <p class="contact-info__card-description">
                 Help on our products is found in our
-                <a href="https://sigscale.atlassian.net/wiki/spaces/SO/overview"
-                  >Knowledge Base</a
-                >
+                <a href="https://sigscale.atlassian.net/wiki/spaces/SO/overview">Knowledge Base</a>
                 Additionally most of our open source projects have public
                 <a href="https://sigscale.atlassian.net/jira/projects">Jira</a>
                 issue tracking.
@@ -268,9 +266,7 @@ export class ContactInfo extends LitElement {
 
             <div class="contact-info__card">
               <h4 class="contact-info__card-header">Development Center</h4>
-              <p class="contact-info__card-description">
-                Colombo 00300 Sri Lanka
-              </p>
+              <p class="contact-info__card-description">Colombo 00300 Sri Lanka</p>
 
               <div class="contact-info__card-links">
                 <img src=${email} alt="email icon" />

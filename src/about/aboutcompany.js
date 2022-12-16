@@ -43,12 +43,12 @@ export class AboutCompany extends LitElement {
 
     .about-company {
       min-height: 100vh;
+      background-color: red;
       display: flex;
-      align-items: flex-start;
       justify-content: center;
       align-items: center;
       font-family: "sf-pro-display-semi", sans-serif;
-      scroll-snap-align: start;
+      /* scroll-snap-align: start; */
     }
 
     .about-company-left {
@@ -236,31 +236,23 @@ export class AboutCompany extends LitElement {
     let paragraph;
     if (this.vision) {
       visionButton = html`<button class="vision-btn">Vision</button>`;
-      missionButton = html` <button
-        class="vision-btn   btn-cta"
-        @click=${this.missionHandler}
-      >
+      missionButton = html` <button class="vision-btn   btn-cta" @click=${this.missionHandler}>
         Mission
       </button>`;
       paragraph = html` <p class="about-company-right__description">
-        This is vision. Our core competency is in signaling and distributed
-        fault tolerant systems. We have developed our own protocol stacks
-        (SIGTRAN,TCAP,CAP,MAP,NGAP,RADIUS,EAP) in Erlang, allowing us to build
-        microservices with very low footprint and massive scalability.
+        This is vision. Our core competency is in signaling and distributed fault tolerant systems.
+        We have developed our own protocol stacks (SIGTRAN,TCAP,CAP,MAP,NGAP,RADIUS,EAP) in Erlang,
+        allowing us to build microservices with very low footprint and massive scalability.
       </p>`;
     } else {
-      visionButton = html`<button
-        class="vision-btn btn-cta"
-        @click=${this.visionHandler}
-      >
+      visionButton = html`<button class="vision-btn btn-cta" @click=${this.visionHandler}>
         Vision
       </button>`;
       missionButton = html` <button class="vision-btn">Mission</button>`;
       paragraph = html` <p class="about-company-right__description">
-        This is mission. Our core competency is in signaling and distributed
-        fault tolerant systems. We have developed our own protocol stacks
-        (SIGTRAN,TCAP,CAP,MAP,NGAP,RADIUS,EAP) in Erlang, allowing us to build
-        microservices with very low footprint and massive scalability.
+        This is mission. Our core competency is in signaling and distributed fault tolerant systems.
+        We have developed our own protocol stacks (SIGTRAN,TCAP,CAP,MAP,NGAP,RADIUS,EAP) in Erlang,
+        allowing us to build microservices with very low footprint and massive scalability.
       </p>`;
     }
 
@@ -268,11 +260,7 @@ export class AboutCompany extends LitElement {
       <section class="about-company">
         <div class="about-area-box">
           <div class="about-company-left">
-            <img
-              src=${aboutImage}
-              alt="about us cover image"
-              class="about-company-left__image"
-            />
+            <img src=${aboutImage} alt="about us cover image" class="about-company-left__image" />
           </div>
           <div class="about-company-right">
             <h3 class="about-company-right__sub-heading">about company</h3>
@@ -280,20 +268,16 @@ export class AboutCompany extends LitElement {
               We Deal With The Aspects Of Professional IT Service
             </h2>
             <p class="about-company-right__description">
-              SigScale is an open source company focused on software solutions
-              for communications service providers (CSP).
+              SigScale is an open source company focused on software solutions for communications
+              service providers (CSP).
             </p>
             <p class="about-company-right__description">
-              Our core competency is in signaling and distributed fault tolerant
-              systems. We have developed our own protocol stacks
-              (SIGTRAN,TCAP,CAP,MAP,NGAP,RADIUS,EAP) in Erlang, allowing us to
-              build microservices with very low footprint and massive
-              scalability.
+              Our core competency is in signaling and distributed fault tolerant systems. We have
+              developed our own protocol stacks (SIGTRAN,TCAP,CAP,MAP,NGAP,RADIUS,EAP) in Erlang,
+              allowing us to build microservices with very low footprint and massive scalability.
             </p>
 
-            <div class="about-company-right__btn-complex">
-              ${visionButton} ${missionButton}
-            </div>
+            <div class="about-company-right__btn-complex">${visionButton} ${missionButton}</div>
 
             ${paragraph}
           </div>

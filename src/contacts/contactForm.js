@@ -9,7 +9,7 @@ export class ContactForm extends LitElement {
       padding: 50px 0;
       /* display: flex; */
       /* align-items: center; */
-      scroll-snap-align: start;
+      /* scroll-snap-align: start; */
     }
 
     .contacts-contact-page {
@@ -100,7 +100,7 @@ export class ContactForm extends LitElement {
       resize: none;
       height: 150px;
       margin-bottom: 30px;
-      scroll-snap-align: start;
+      /* scroll-snap-align: start; */
     }
 
     .submit-btn {
@@ -213,13 +213,7 @@ export class ContactForm extends LitElement {
           <h1 class="contacts-contact__header">Let's Talk</h1>
           <div class="row-dual">
             <div class="text-div">
-              <input
-                type="text"
-                class="text-box"
-                name="name"
-                id="name"
-                placeholder="Your Name"
-              />
+              <input type="text" class="text-box" name="name" id="name" placeholder="Your Name" />
               <label for="name" class="text-label">Your Name</label>
             </div>
             <div class="text-div">

@@ -86,8 +86,8 @@ export class Solutions extends LitElement {
       min-height: 100vh;
       position: relative;
       display: flex;
+      /* padding: 70px 0 !important; */
       justify-content: center;
-      scroll-snap-align: start;
     }
 
     .image-background-solutions {
@@ -110,6 +110,7 @@ export class Solutions extends LitElement {
       line-height: 97.5%;
       width: 405px;
       font-family: "sf-pro-display-semi", sans-serif;
+      margin: 0;
     }
 
     .solutions-right {
@@ -140,6 +141,7 @@ export class Solutions extends LitElement {
       display: flex;
       justify-content: center;
       align-items: center;
+      border-bottom: var(--color-primary) 5px solid;
     }
 
     .solutions-right__card-image {
@@ -208,6 +210,8 @@ export class Solutions extends LitElement {
 
       .solutions-area-box {
         flex-direction: column;
+        padding-top: 3.5rem !important;
+        padding-bottom: 3.5rem !important;
       }
 
       .solutions-left__header {
@@ -231,7 +235,7 @@ export class Solutions extends LitElement {
         width: 80%;
       }
       .solutions-right__card-description {
-        font-size: 19px;
+        font-size: 16px;
         line-height: 32px;
       }
     }
@@ -244,11 +248,6 @@ export class Solutions extends LitElement {
       .solutions-left {
         width: 80%;
       }
-
-      /* .solutions-right__card-description {
-        font-size: 14px;
-      } */
-
       .cta-mobile {
         margin-top: 40px;
       }
@@ -256,7 +255,8 @@ export class Solutions extends LitElement {
 
     @media (max-width: 576px) {
       .solutions {
-        padding: 4rem 0;
+        /* margin-top: 70px !important;
+        margin-bottom: 70px !important; */
       }
       .solutions-right__card {
         width: 40%;
@@ -269,10 +269,6 @@ export class Solutions extends LitElement {
         font-size: 27px !important ;
         line-height: 29px;
         font-weight: 700;
-      }
-      .solutions-right__card-description {
-        font-size: 19px;
-        line-height: 32px;
       }
     }
 
@@ -318,8 +314,9 @@ export class Solutions extends LitElement {
     @media (max-width: 576px) {
       .solutions-area-box {
         max-width: auto;
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
+        /* padding-left: 2rem !important;
+        padding-right: 2rem !important; */
+        padding: 3.5rem 2rem !important;
       }
     }
   `;

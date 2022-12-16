@@ -73,15 +73,15 @@ export class About extends LitElement {
   static styles = css`
     .about {
       font-family: "sf-pro-text", sans-serif;
-      /* padding: 30px 0; */
-      /* display: block; */
       display: flex;
+      align-items: center;
       min-height: 100vh;
-      scroll-snap-align: start;
+      /* scroll-snap-align: none; */
     }
 
     .about-left {
       min-height: 650px;
+      gap: 50px;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
@@ -94,11 +94,12 @@ export class About extends LitElement {
       letter-spacing: -0.0015em;
       max-width: 350px;
       margin-bottom: 20px;
+      margin-top: 0;
       font-family: "sf-pro-display-semi";
     }
 
     .about-left__description {
-      font-size: 19px; //14
+      font-size: 17px; //14
       line-height: 32px;
       font-weight: 400;
       letter-spacing: -0.005em;
@@ -121,7 +122,7 @@ export class About extends LitElement {
     }
 
     .about-left__card-content-box_header {
-      font-size: 24px !important; //20
+      font-size: 20px !important; //20
       line-height: 29px;
       font-weight: 700;
       margin-top: 0px !important ;
@@ -132,9 +133,10 @@ export class About extends LitElement {
     }
 
     .about-left__card-content-box_description {
-      font-size: 19px; //16
+      font-size: 16px; //16
       line-height: 32px;
       font-family: "sf-pro-text", sans-serif;
+      margin: 0;
       color: var(--color-description);
     }
 
@@ -144,7 +146,7 @@ export class About extends LitElement {
       width: 170px;
       text-decoration: none;
       color: white;
-      margin-top: 50px;
+      margin-top: 30px;
     }
 
     .about-right__intro-video__content {
@@ -219,7 +221,7 @@ export class About extends LitElement {
     }
 
     .about-area-box {
-      margin: auto auto;
+      margin: 3rem auto;
       display: flex;
       max-width: 1400px;
       align-items: center;
@@ -261,8 +263,8 @@ export class About extends LitElement {
         line-height: 29px;
       }
       .about-left__card-content-box_description {
-        font-size: 19px !important;
-        line-height: 32px;
+        /* font-size: 19px !important; */
+        line-height: 20px;
       }
     }
 
@@ -437,7 +439,7 @@ export class About extends LitElement {
         /* font-size: 14px; */
       }
       .about {
-        margin: 20px 0;
+        margin: 3rem 0;
       }
     }
 

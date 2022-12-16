@@ -12,44 +12,33 @@ export class OurServices extends LitElement {
           <div class="our-services__card-area">
             <div class="our-services__card">
               <div class="our-services__image-complex">
-                <img
-                  src=${serviceicon1}
-                  alt="bulb image"
-                  class="our-services__card-image"
-                />
+                <img src=${serviceicon1} alt="bulb image" class="our-services__card-image" />
               </div>
               <h3 class="our-services__card-header">Supscription Support</h3>
               <p class="our-services__card-description">
-                We offer our CSP customers commercial subscription support
-                services to meet their business assurance requirements.
+                We offer our CSP customers commercial subscription support services to meet their
+                business assurance requirements.
               </p>
               <p class="our-services__card-description">
-                While vendors of proprietary solutions will charge you relative
-                to the amount of your customer traffic, SigScale offers our
-                software license free. We charge relative to only your use of
-                our support resources. Subscription packages are sized to
-                include a guaranteed monthly minimum volume, availability
-                windows and response time to match your requirements.
+                While vendors of proprietary solutions will charge you relative to the amount of
+                your customer traffic, SigScale offers our software license free. We charge relative
+                to only your use of our support resources. Subscription packages are sized to
+                include a guaranteed monthly minimum volume, availability windows and response time
+                to match your requirements.
               </p>
             </div>
 
             <div class="our-services__card">
               <div class="our-services__image-complex">
-                <img
-                  src=${serviceicon2}
-                  alt="bulb image"
-                  class="our-services__card-image"
-                />
+                <img src=${serviceicon2} alt="bulb image" class="our-services__card-image" />
               </div>
               <h3 class="our-services__card-header">Project Sponsorship</h3>
               <p class="our-services__card-description">
-                Where our software projects require feature additions for full
-                coverage of your requirements a project sponsorship may be
-                available. To ensure our roadmap fits your project's timeline we
-                engage commercially on feature delivery. While all of our
-                software remains open source you can influence the product
-                direction and get those features you need implemented to suit
-                your requirements.
+                Where our software projects require feature additions for full coverage of your
+                requirements a project sponsorship may be available. To ensure our roadmap fits your
+                project's timeline we engage commercially on feature delivery. While all of our
+                software remains open source you can influence the product direction and get those
+                features you need implemented to suit your requirements.
               </p>
               <!-- <p class="our-services__card-description">
                 Ipsam, et temporibus dolorum deleniti at quasi officia tenetur
@@ -76,7 +65,7 @@ export class OurServices extends LitElement {
       display: flex;
       padding: 70px 0;
       font-family: "sf-pro-text", sans-serif;
-      scroll-snap-align: start;
+     /* scroll-snap-align: start; */
       /* background-color: green; */
     }
 

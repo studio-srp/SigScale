@@ -18,7 +18,7 @@ export class Landing extends LitElement {
       display: flex;
       align-items: flex-end;
       font-family: "sf-pro-text", sans-serif;
-      scroll-snap-align: start;
+      /* scroll-snap-align: start; */
       height: calc(40vh - 90px);
       width: 100vw;
       overflow: hidden;
@@ -149,11 +149,7 @@ export class Landing extends LitElement {
             </div>
           </div>
         </div>
-        <img
-          src=${landingImage}
-          alt="background image"
-          class="background-image-service-landing"
-        />
+        <img src=${landingImage} alt="background image" class="background-image-service-landing" />
         <div class="overlay"></div>
       </section>
     `;

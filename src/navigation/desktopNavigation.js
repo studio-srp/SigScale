@@ -13,7 +13,7 @@ class DesktopNavigation extends LitElement {
       width: 100vw;
       height: 90px;
       opacity: 1;
-      scroll-snap-align: start;
+      /* scroll-snap-align: start; */
     }
 
     .background-image {
