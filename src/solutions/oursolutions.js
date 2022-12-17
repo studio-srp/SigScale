@@ -11,9 +11,6 @@ export class OurSolutions extends LitElement {
       max-width: 1400px;
       height: 100%;
     }
-    .d-hidden {
-      display: none !important;
-    }
 
     @media (min-width: 1200px) {
       .our-solutions-area-box {
@@ -49,7 +46,8 @@ export class OurSolutions extends LitElement {
         font-weight: 700;
       }
       .our-solutions__card-header {
-        font-size: 24px !important;
+        /* font-size: 24px !important; */
+        font-size: 20px;
         line-height: 29px;
       }
 
@@ -76,7 +74,7 @@ export class OurSolutions extends LitElement {
         font-weight: 700;
       }
       .our-solutions__card-header {
-        font-size: 24px !important;
+        font-size: 20px;
         line-height: 29px;
       }
 
@@ -86,10 +84,21 @@ export class OurSolutions extends LitElement {
       }
     }
 
+    .d-hidden {
+      visibility: hidden !important;
+      height: 0;
+    }
+
+    @media (max-width: 1200px) {
+      .d-hidden {
+        display: none;
+      }
+    }
+
     .our-solutions {
       min-height: 100vh;
       font-family: "sf-pro-text", sans-serif;
-      padding: 70px 0;
+      padding: 2rem 0;
       /* scroll-snap-align: start; */
     }
 
@@ -97,7 +106,7 @@ export class OurSolutions extends LitElement {
       font-family: "sf-pro-display-semi", sans-serif;
       color: var(--color-primary);
       text-transform: uppercase;
-      font-size: 24px !important ;
+      font-size: 22px;
       line-height: 29px;
       font-weight: 700;
       letter-spacing: 0.15em;
@@ -111,7 +120,7 @@ export class OurSolutions extends LitElement {
       font-weight: 700;
       line-height: 42px;
       margin: 0;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
 
     .our-solutions__card-area {
@@ -129,6 +138,9 @@ export class OurSolutions extends LitElement {
       border-radius: 10px;
       margin-bottom: 30px;
       transition: 0.3s all;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
 
     @media (max-width: 1200px) {
@@ -174,14 +186,14 @@ export class OurSolutions extends LitElement {
     }
 
     .our-solutions__card-header {
-      font-size: 27px;
+      font-size: 20px;
       line-height: 29px;
     }
 
     .our-solutions__card-description {
       color: var(--color-description);
-      font-size: 19px;
-      line-height: 32px;
+      font-size: 16px;
+      line-height: 20px;
       margin-bottom: 25px;
     }
 
@@ -263,146 +275,147 @@ export class OurSolutions extends LitElement {
           <h1 class="our-solutions__header">How Can We Assist You</h1>
           <div class="our-solutions__card-area">
             <div class="our-solutions__card">
-              <div class="our-solutions__image-complex">
-                <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
-                <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+              <div>
+                <div class="our-solutions__image-complex">
+                  <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
+                  <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+                </div>
+                <h3 class="our-solutions__card-header">Online Charging System (OCS)</h3>
+                <p class="our-solutions__card-description">
+                  SigScale OCS is relied upon by global communications service providers (CSP) to
+                  provide real-time charging of prepaid voice, data and messaging services.
+                </p>
               </div>
-              <h3 class="our-solutions__card-header">Online Charging System (OCS)</h3>
-              <p class="our-solutions__card-description">
-                SigScale OCS is relied upon by global communications service providers (CSP) to
-                provide real-time charging of prepaid voice, data and messaging services.
-              </p>
+              <div>
+                <a href="/solutions-detailed.html" class="our-solutions__card-link"
+                  >Read more &#10148;</a
+                >
+              </div>
+            </div>
+            <div class="our-solutions__card">
+              <div>
+                <div class="our-solutions__image-complex">
+                  <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
+                  <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+                </div>
+                <h3 class="our-solutions__card-header">3GPP AAA Server</h3>
+                <p class="our-solutions__card-description">
+                  Use cases include untrusted non-3GPP access to Evolved Packet Core (EPC). May be
+                  used standalone with EAP-AKA' authentication of USIMs.
+                </p>
+              </div>
               <a href="/solutions-detailed.html" class="our-solutions__card-link"
                 >Read more &#10148;</a
               >
             </div>
             <div class="our-solutions__card">
-              <div class="our-solutions__image-complex">
-                <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
-                <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+              <div>
+                <div class="our-solutions__image-complex">
+                  <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
+                  <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+                </div>
+                <h3 class="our-solutions__card-header">CAMEL Service Environment (CSE)</h3>
+                <p class="our-solutions__card-description">
+                  A CSE provides the Service Control Function (SCF) for intelligent network
+                  applications with Customized Mobile Enhanced Logic (CAMEL). The CSE hosts Service
+                  Logic Programs (SLP) which may be devloped by/for an operator to customize the
+                  mobile services offered to subscribers.
+                </p>
               </div>
-              <h3 class="our-solutions__card-header">3GPP AAA Server</h3>
-              <p class="our-solutions__card-description">
-                Use cases include untrusted non-3GPP access to Evolved Packet Core (EPC). May be
-                used standalone with EAP-AKA' authentication of USIMs.
-              </p>
               <a href="/solutions-detailed.html" class="our-solutions__card-link"
                 >Read more &#10148;</a
               >
             </div>
             <div class="our-solutions__card">
-              <div class="our-solutions__image-complex">
-                <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
-                <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+              <div>
+                <div class="our-solutions__image-complex">
+                  <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
+                  <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+                </div>
+                <h3 class="our-solutions__card-header">DIAMETER Signaling Controller (DSC)</h3>
+                <p class="our-solutions__card-description">
+                  CSPs use SigScale DSC to route DIAMETER protocol traffic within and between
+                  administrative domains.
+                </p>
               </div>
-              <h3 class="our-solutions__card-header">CAMEL Service Environment (CSE)</h3>
-              <p class="our-solutions__card-description">
-                A CSE provides the Service Control Function (SCF) for intelligent network
-                applications with Customized Mobile Enhanced Logic (CAMEL). The CSE hosts Service
-                Logic Programs (SLP) which may be devloped by/for an operator to customize the
-                mobile services offered to subscribers.
-              </p>
               <a href="/solutions-detailed.html" class="our-solutions__card-link"
                 >Read more &#10148;</a
               >
             </div>
             <div class="our-solutions__card">
-              <div class="our-solutions__image-complex">
-                <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
-                <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+              <div>
+                <div class="our-solutions__image-complex">
+                  <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
+                  <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+                </div>
+                <h3 class="our-solutions__card-header">Global Title Translation (GTT)</h3>
+                <p class="our-solutions__card-description">
+                  SigScale GTT routes SIGTRAN traffic by origin/destination SCCP global title
+                  (GT).Use cases include MVNO/MNO gateways and internal load balancing
+                </p>
               </div>
-              <h3 class="our-solutions__card-header">DIAMETER Signaling Controller (DSC)</h3>
-              <p class="our-solutions__card-description">
-                CSPs use SigScale DSC to route DIAMETER protocol traffic within and between
-                administrative domains.
-              </p>
-              <a href="/solutions-detailed.html" class="our-solutions__card-link"
-                >Read more &#10148;</a
-              >
-            </div>
-            <div class="our-solutions__card">
-              <div class="our-solutions__image-complex">
-                <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
-                <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
-              </div>
-              <h3 class="our-solutions__card-header">Global Title Translation (GTT)</h3>
-              <p class="our-solutions__card-description">
-                SigScale GTT routes SIGTRAN traffic by origin/destination SCCP global title (GT).Use
-                cases include MVNO/MNO gateways and internal load balancing
-              </p>
               <a href="/solutions-detailed.html" class="our-solutions__card-link"
                 >Read more &#10148;</a
               >
             </div>
 
             <div class="our-solutions__card">
-              <div class="our-solutions__image-complex">
-                <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
-                <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+              <div>
+                <div class="our-solutions__image-complex">
+                  <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
+                  <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+                </div>
+                <h3 class="our-solutions__card-header">Fault Management (FM)</h3>
+                <p class="our-solutions__card-description">
+                  SigScale FM provides scalable fault surveillance, particularily suited to 3GPP
+                  CSPs. Our web components frontend provides flexible filtering over the TM Forum
+                  Alarm Management API (TMF642). Fault events may be ingested on TMF642, SigScale
+                  VES collector or ONAP DCAE.
+                </p>
               </div>
-              <h3 class="our-solutions__card-header">Fault Management (FM)</h3>
-              <p class="our-solutions__card-description">
-                SigScale FM provides scalable fault surveillance, particularily suited to 3GPP CSPs.
-                Our web components frontend provides flexible filtering over the TM Forum Alarm
-                Management API (TMF642). Fault events may be ingested on TMF642, SigScale VES
-                collector or ONAP DCAE.
-              </p>
               <a href="/solutions-detailed.html" class="our-solutions__card-link"
                 >Read more &#10148;</a
               >
             </div>
             <div class="our-solutions__card">
-              <div class="our-solutions__image-complex">
-                <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
-                <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+              <div>
+                <div class="our-solutions__image-complex">
+                  <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
+                  <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+                </div>
+                <h3 class="our-solutions__card-header">SNMP Collector</h3>
+                <p class="our-solutions__card-description">
+                  This SNMP manager implements an advanced SNMP collector for ONAP DCAE. Use cases
+                  include 3GPP TMN Fault Management (FM) where Northbound Interfaces (NBI) of
+                  Element Management Systems (EMS) use an SNMP solution set.
+                </p>
               </div>
-              <h3 class="our-solutions__card-header">SNMP Collector</h3>
-              <p class="our-solutions__card-description">
-                This SNMP manager implements an advanced SNMP collector for ONAP DCAE. Use cases
-                include 3GPP TMN Fault Management (FM) where Northbound Interfaces (NBI) of Element
-                Management Systems (EMS) use an SNMP solution set.
-              </p>
               <a href="/solutions-detailed.html" class="our-solutions__card-link"
                 >Read more &#10148;</a
               >
             </div>
 
             <div class="our-solutions__card">
-              <div class="our-solutions__image-complex">
-                <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
-                <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+              <div>
+                <div class="our-solutions__image-complex">
+                  <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
+                  <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
+                </div>
+                <h3 class="our-solutions__card-header">Resource Inventory Management (RIM)</h3>
+                <p class="our-solutions__card-description">
+                  SigScale RIM implements TM Forum Resource Inventory API (TMF639) and discovery
+                  through 3GPP TMN Bulk CM (Configuration Management) (XML) file import. All 3GPP
+                  Network Resource Models (NRM) (e.g. NodeB, EPC MME, 5G Slice) are implemented as
+                  Resource Specifications in TMF634). Use cases include 3GPP FM & PM integration.
+                  SigScale RIM provides Managed Object (MO) details to enhance alarm and performance
+                  reporting and analystics.
+                </p>
               </div>
-              <h3 class="our-solutions__card-header">Resource Inventory Management (RIM)</h3>
-              <p class="our-solutions__card-description">
-                SigScale RIM implements TM Forum Resource Inventory API (TMF639) and discovery
-                through 3GPP TMN Bulk CM (Configuration Management) (XML) file import. All 3GPP
-                Network Resource Models (NRM) (e.g. NodeB, EPC MME, 5G Slice) are implemented as
-                Resource Specifications in TMF634). Use cases include 3GPP FM & PM integration.
-                SigScale RIM provides Managed Object (MO) details to enhance alarm and performance
-                reporting and analystics.
-              </p>
               <a href="/solutions-detailed.html" class="our-solutions__card-link"
                 >Read more &#10148;</a
               >
             </div>
-            <div class="our-solutions__card d-hidden">
-              <div class="our-solutions__image-complex">
-                <img src=${cyanBulb} alt="bulb image" class="our-solutions__card-image__cyan" />
-                <img src=${yellowBulb} alt="bulb image" class="our-solutions__card-image" />
-              </div>
-              <h3 class="our-solutions__card-header">Resource Inventory Management (RIM)</h3>
-              <p class="our-solutions__card-description">
-                SigScale RIM implements TM Forum Resource Inventory API (TMF639) and discovery
-                through 3GPP TMN Bulk CM (Configuration Management) (XML) file import. All 3GPP
-                Network Resource Models (NRM) (e.g. NodeB, EPC MME, 5G Slice) are implemented as
-                Resource Specifications in TMF634). Use cases include 3GPP FM & PM integration.
-                SigScale RIM provides Managed Object (MO) details to enhance alarm and performance
-                reporting and analystics.
-              </p>
-              <a href="/solutions-detailed.html" class="our-solutions__card-link"
-                >Read more &#10148;</a
-              >
-            </div>
+            <div class="our-solutions__card d-hidden"></div>
           </div>
         </div>
       </section>
