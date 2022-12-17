@@ -40,18 +40,6 @@ export class OurServices extends LitElement {
                 software remains open source you can influence the product direction and get those
                 features you need implemented to suit your requirements.
               </p>
-              <!-- <p class="our-services__card-description">
-                Ipsam, et temporibus dolorum deleniti at quasi officia tenetur
-                non provident eum repudiandae obcaecati sunt sequi doloremque
-                modi quod voluptatum mollitia autem praesentium voluptatem minus
-                nostrum vel! Beatae atque similique repellat vel aliquid fuga
-                labore totam magnam qui, perspiciatis aperiam optio possimus
-                voluptatibus obcaecati saepe, cumque at voluptatum corrupti enim
-                voluptas. Suscipit, pariatur autem? Autem vero quae aut facilis,
-                iste necessitatibus perspiciatis commodi qui tempora nesciunt
-                doloremque, sint aliquam! Aliquid nostrum perferendis ipsa
-                ducimus blanditiis
-              </p> -->
             </div>
           </div>
         </div>
@@ -63,35 +51,33 @@ export class OurServices extends LitElement {
     .our-services {
       min-height: 100vh;
       display: flex;
-      padding: 70px 0;
+      padding: 2rem 0;
       font-family: "sf-pro-text", sans-serif;
-     /* scroll-snap-align: start; */
-      /* background-color: green; */
+      /* scroll-snap-align: start; */
     }
 
-   .section__sub-header {
-            font-family: "sf-pro-display-semi", sans-serif;
-            color: var(--color-primary);
-            text-transform: uppercase;
-            font-size: 24px !important ;
- line-height: 29px;
- font-weight: 700;
-            letter-spacing: 0.15em;
-            margin-bottom: 5px;
-        }
-
+    .section__sub-header {
+      font-family: "sf-pro-display-semi", sans-serif;
+      color: var(--color-primary);
+      text-transform: uppercase;
+      font-size: 22px !important ;
+      line-height: 29px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      margin-top: 22px;
+      margin-bottom: 5px;
+    }
 
     .section__header {
-            font-family: "sf-pro-display-semi", sans-serif;
-            font-size: 35px !important ;
- line-height: 31px;
- font-weight: 700;
-            margin: 0;
-            margin-bottom: 40px;
-        }
+      font-family: "sf-pro-display-semi", sans-serif;
+      font-size: 35px !important ;
+      line-height: 42px;
+      font-weight: 700;
+      margin: 0;
+      margin-bottom: 30px;
+    }
 
     .our-services__card {
-      /* width: 100%; */
       border-bottom: 4px var(--color-primary) solid;
       padding: 50px 40px;
       box-shadow: 0px 4px 20px 2px rgba(0, 0, 0, 0.1);
@@ -114,16 +100,15 @@ export class OurServices extends LitElement {
 
     .our-services__card-header {
       font-size: 30px !important ;
- line-height: 29px !important ;
+      line-height: 29px !important ;
       margin-bottom: 15px;
     }
 
     .our-services__card-description {
-      font-size: 19px !important ;
- line-height: 32px !important ;
+      font-size: 16px;
+      line-height: 20px;
       color: var(--color-description);
       font-weight: 200;
-      margin-bottom: 25px;
     }
 
     .our-services__card-link {
@@ -134,10 +119,8 @@ export class OurServices extends LitElement {
       transition: 0.3s all;
     }
 
-    /* ---------------------------------------------------------- */
-
     .our-services-area-box {
-      margin: auto auto;
+      margin: 0 auto;
       display: flex;
       flex-direction: column;
       max-width: 1400px;
@@ -174,33 +157,33 @@ export class OurServices extends LitElement {
 
       .section__header {
         font-size: 27px !important ;
- line-height: 29px;
- font-weight: 700;
+        line-height: 29px;
+        font-weight: 700;
       }
       .section__sub-header {
         font-size: 24px !important ;
- line-height: 29px;
- font-weight: 700;
-       
+        line-height: 29px;
+        font-weight: 700;
       }
       .our-services__card-description {
-        font-size: 19px !important ;
- line-height: 32px;
+        font-size: 16px;
+        line-height: 20px;
         text-align: justify;
         letter-spacing: 0.03em;
         font-weight: 100;
       }
       .our-services__card-header {
         font-size: 24px !important;
- line-height: 29px;
+        line-height: 29px;
       }
       .our-services__card {
         padding: 30px 20px;
       }
       .our-services {
-      padding: 40px 0;
+        padding: 40px 0;
+      }
     }
-  }
+
     @media (max-width: 992px) {
       .our-services-area-box {
         padding-left: 3rem !important;
@@ -209,18 +192,18 @@ export class OurServices extends LitElement {
 
       .section__header {
         font-size: 27px !important ;
- line-height: 31px !important ;
- font-weight: 700;
+        line-height: 31px !important ;
+        font-weight: 700;
       }
       .section__sub-header {
         font-size: 24px !important ;
- line-height: 29px !important ;
- font-weight: 700;
+        line-height: 29px !important ;
+        font-weight: 700;
       }
-      
+
       .our-services__card-header {
         font-size: 24px !important;
- line-height: 29px;
+        line-height: 29px;
       }
       .our-services__card-description {
         font-size: 16px;
@@ -230,8 +213,8 @@ export class OurServices extends LitElement {
       }
       .our-services__card-header {
         font-size: 24px !important ;
- line-height: 29px !important ;
- font-weight: 700;
+        line-height: 29px !important ;
+        font-weight: 700;
       }
       .our-services__card {
         padding: 40px 30px;
@@ -239,7 +222,10 @@ export class OurServices extends LitElement {
       .our-services {
         padding: 30px 0;
       }
+    }
   `;
 }
 
 window.customElements.define("our-services", OurServices);
+
+//     /* ---------------------------------------------------------- */

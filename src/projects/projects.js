@@ -13,7 +13,7 @@ export class Projects extends LitElement {
       display: flex;
       align-items: center;
       font-family: "sf-pro-text", sans-serif;
-      padding: 70px 0;
+      padding: 2rem 0;
       /* scroll-snap-align: start; */
     }
 
@@ -21,25 +21,24 @@ export class Projects extends LitElement {
       font-family: "sf-pro-display-semi", sans-serif;
       color: var(--color-primary);
       text-transform: uppercase;
-      font-size: 24px !important ;
+      font-size: 22px;
       line-height: 29px;
       font-weight: 700;
       letter-spacing: 0.15em;
       margin-bottom: 5px;
+      margin-top: 22px;
     }
 
     .section__header {
       font-family: "sf-pro-display-semi", sans-serif;
-      font-size: 35px !important ;
-      line-height: 31px;
+      font-size: 35px;
+      line-height: 42px;
       font-weight: 700;
       margin: 0;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
     .projects__card-section {
       display: flex;
-      /* background-color: red; */
-      align-items: flex-start;
       padding: 40px;
       gap: 30px;
       border-radius: 10px;
@@ -48,19 +47,17 @@ export class Projects extends LitElement {
       margin-bottom: 40px;
     }
 
-    /* .projects__card__content {
-    } */
-
     .projects__card__header {
-      font-size: 30px !important ;
-      line-height: 29px !important ;
+      font-size: 20px;
+      line-height: 29px;
       font-family: "sf-pro-display-semi", sans-serif;
       font-weight: 500;
+      margin-top: 0;
       margin-bottom: 20px;
     }
 
     .projects__card__description {
-      font-size: 19px !important ;
+      font-size: 16px !important ;
       line-height: 32px !important ;
       font-weight: 400;
       margin-bottom: 20px;
@@ -135,7 +132,7 @@ export class Projects extends LitElement {
       }
 
       .projects__card__header {
-        font-size: 24px !important;
+        font-size: 20px;
         line-height: 29px;
       }
 
@@ -234,7 +231,7 @@ export class Projects extends LitElement {
         font-weight: 100;
       }
       .projects__card__header {
-        font-size: 24px !important;
+        font-size: 20px;
         line-height: 29px;
         margin-top: 00px;
       }

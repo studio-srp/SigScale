@@ -110,6 +110,7 @@ export class OurSolutions extends LitElement {
       line-height: 29px;
       font-weight: 700;
       letter-spacing: 0.15em;
+      margin-top: 22px;
       margin-bottom: 5px;
     }
 

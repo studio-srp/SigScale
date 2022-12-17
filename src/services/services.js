@@ -8,7 +8,6 @@ export class Services extends LitElement {
       display: flex;
       align-items: flex-end;
       font-family: "sf-pro-text", sans-serif;
-      /* scroll-snap-align: start; */
       height: calc(40vh - 90px);
       width: 100vw;
       overflow: hidden;
