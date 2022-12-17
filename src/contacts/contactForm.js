@@ -6,15 +6,16 @@ export class ContactForm extends LitElement {
       min-height: 100vh;
       display: flex;
       width: 100vw;
-      padding: 50px 0;
-      /* display: flex; */
-      /* align-items: center; */
+      box-sizing: border-box;
+      padding: 2rem 0;
+      justify-content: center;
+      align-items: center;
       /* scroll-snap-align: start; */
     }
 
-    .contacts-contact-page {
+    /* .contacts-contact-page {
       padding: 70px 0;
-    }
+    } */
 
     .contacts-contact__sub-header {
       color: var(--color-primary);
@@ -24,7 +25,8 @@ export class ContactForm extends LitElement {
       font-family: "sf-pro-display-semi", sans-serif;
       text-transform: uppercase;
       letter-spacing: 0.15em;
-      margin-bottom: 0px;
+      margin-top: 0;
+      margin-bottom: 0;
     }
 
     .contacts-contact__header {
@@ -100,7 +102,10 @@ export class ContactForm extends LitElement {
       resize: none;
       height: 150px;
       margin-bottom: 30px;
-      /* scroll-snap-align: start; */
+    }
+
+    .textarea-box:focus::placeholder {
+      color: transparent;
     }
 
     .submit-btn {
@@ -147,7 +152,7 @@ export class ContactForm extends LitElement {
     }
 
     .contacts-contact-area-box {
-      margin: auto auto;
+      margin: 0 auto;
       display: flex;
       flex-direction: column;
       max-width: 1400px;

@@ -6,9 +6,8 @@ export class ContactWorkWithUs extends LitElement {
     .contacts-work-with-us {
       height: 40vh;
       text-align: center;
-      padding: 110px 0;
+      padding: 4rem 0;
       font-family: "sf-pro-text", sans-serif;
-      scroll-snap-align: center;
       position: relative;
     }
 
@@ -27,23 +26,23 @@ export class ContactWorkWithUs extends LitElement {
       text-transform: uppercase;
       text-align: center;
       color: var(--color-primary);
-      font-size: 24px !important ;
+      font-size: 22px;
       line-height: 29px;
       font-weight: 700;
-
       letter-spacing: 0.15em;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
     }
 
     .contacts-work-with-us__heading {
       font-family: "sf-pro-display-semi", sans-serif;
       color: white;
       font-size: 35px !important ;
-      line-height: 31px;
+      line-height: 42px;
       font-weight: 700;
       text-align: center;
       letter-spacing: 0.05em;
-      margin-bottom: 30px;
+      margin-top: 5px;
+      margin-bottom: 20px;
     }
 
     .contacts-work-with-us__cta-btn {
@@ -55,7 +54,6 @@ export class ContactWorkWithUs extends LitElement {
       color: var(--color-primary);
       border: var(--color-primary) 2px solid;
       border-radius: 5px;
-      margin: auto;
       transition: 0.2s all;
       font-size: 19px !important ;
       line-height: 32px !important ;
@@ -109,9 +107,10 @@ export class ContactWorkWithUs extends LitElement {
     }
 
     .contacts-work-area-box {
-      margin: auto auto;
+      margin: 0 auto;
       display: flex;
       flex-direction: column;
+      justify-content: center;
       max-width: 1400px;
       height: 100%;
     }
@@ -151,20 +150,14 @@ export class ContactWorkWithUs extends LitElement {
       <section class="contacts-work-with-us">
         <div class="contacts-work-area-box">
           <div class="content-area">
-            <h3 class="contacts-work-with-us__sub-heading">
-              Want to work with us?
-            </h3>
+            <h3 class="contacts-work-with-us__sub-heading">Want to work with us?</h3>
             <h2 class="contacts-work-with-us__heading">
               Digitally transform and grow your business
             </h2>
             <a class="contacts-work-with-us__cta-btn" href="#">Contact Us</a>
           </div>
         </div>
-        <img
-          src=${backgroundImage}
-          alt="background image"
-          class="background-image"
-        />
+        <img src=${backgroundImage} alt="background image" class="background-image" />
         <div class="overlay"></div>
       </section>
     `;

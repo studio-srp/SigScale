@@ -11,9 +11,7 @@ import "./../footer/footer.js";
 export class Home extends LitElement {
   static styles = css`
     .landing-banner {
-      /* height: calc(100vh - 90px); */
       width: 100vw;
-      /* scroll-snap-align: start; */
       overflow: hidden;
       position: relative;
       min-height: calc(-90px + 100vh);
@@ -37,7 +35,6 @@ export class Home extends LitElement {
       margin-bottom: 90px;
     }
     .landing-banner__header {
-      /* padding-top: 5vh; */
       color: white;
       font-family: "sf-pro-display-semi", sans-serif;
       font-weight: 600;
@@ -79,7 +76,6 @@ export class Home extends LitElement {
       align-items: center;
       height: 100%;
       position: relative;
-      background-color: red;
     }
 
     @media (max-width: 992px) {

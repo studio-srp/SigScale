@@ -6,10 +6,12 @@ import phone from "./../assets/icons/telephone.svg";
 export class ContactInfo extends LitElement {
   static styles = css`
     .contact-info {
-      min-height: 100vh;
+      /* min-height: 100vh; */
       font-family: "sf-pro-text", sans-serif;
-      padding: 70px 0;
+      padding: 2rem 0;
+      padding-bottom: 4rem;
       display: flex;
+      justify-content: center;
       /* scroll-snap-align: start; */
     }
 
@@ -17,7 +19,7 @@ export class ContactInfo extends LitElement {
       font-family: "sf-pro-display-semi", sans-serif;
       color: var(--color-primary);
       text-transform: uppercase;
-      font-size: 24px !important ;
+      font-size: 22px;
       line-height: 29px;
       font-weight: 700;
       letter-spacing: 0.15em;
@@ -27,16 +29,16 @@ export class ContactInfo extends LitElement {
     .section__header {
       font-family: "sf-pro-display-semi", sans-serif;
       font-size: 35px !important ;
-      line-height: 31px;
+      line-height: 42px;
       font-weight: 700;
       margin: 0;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
 
     .contact-info__card-section {
       display: flex;
       flex-direction: row;
-      gap: 40px;
+      gap: 30px;
       justify-content: space-between;
       flex-wrap: wrap;
     }
@@ -47,18 +49,18 @@ export class ContactInfo extends LitElement {
       border-top: 4px var(--color-primary) solid;
       border-radius: 15px;
       box-shadow: 0px 4px 20px 2px rgba(0, 0, 0, 0.1);
-      width: 47%;
+      width: calc(50% - 15px);
     }
 
     .contact-info__card-header {
-      font-size: 30px !important ;
+      font-size: 20px;
       line-height: 29px !important ;
       margin-bottom: 10px;
       margin-top: 0px;
     }
 
     .contact-info__card-description {
-      font-size: 19px !important ;
+      font-size: 16px !important ;
       line-height: 32px !important ;
       color: var(--color-description);
       margin-bottom: 15px;
@@ -77,7 +79,7 @@ export class ContactInfo extends LitElement {
     }
 
     .contact-info__card-links > p {
-      font-size: 19px !important ;
+      font-size: 16px !important ;
       line-height: 32px !important ;
       font-weight: 300px;
       margin-bottom: 5px;

@@ -13,15 +13,14 @@ export class Awards extends LitElement {
       display: flex;
       justify-content: center;
       font-family: "sf-pro-text", sans-serif;
-      padding: 70px 0;
-      /* scroll-snap-align: start; */
+      padding: 2rem 0;
     }
 
     .section__sub-header {
       font-family: "sf-pro-display-semi", sans-serif;
       color: var(--color-primary);
       text-transform: uppercase;
-      font-size: 24px !important ;
+      font-size: 22px;
       line-height: 29px;
       font-weight: 700;
       letter-spacing: 0.15em;
@@ -31,16 +30,15 @@ export class Awards extends LitElement {
     .section__header {
       font-family: "sf-pro-display-semi", sans-serif;
       font-size: 35px !important ;
-      line-height: 31px;
+      line-height: 42px;
       font-weight: 700;
       line-height: 42px;
       margin: 0;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
 
     .awards-card {
       overflow: hidden;
-      /* width: 100%; */
       text-align: center;
       padding: 40px;
       border-radius: 15px;
@@ -64,16 +62,14 @@ export class Awards extends LitElement {
       font-weight: 400;
       margin-top: 30px;
       margin-bottom: 20px;
-      font-size: 30px;
+      font-size: 20px;
       line-height: 29px;
       font-family: "sf-pro-display-semi", sans-serif;
     }
 
     .awards-card__description {
-      font-size: 19px;
+      font-size: 16px;
       line-height: 32px;
-
-      /* line-height: 19px; */
       color: var(--color-description);
     }
 
@@ -115,20 +111,20 @@ export class Awards extends LitElement {
       }
       .section__sub-header {
         color: var(--color-primary);
-        font-size: 24px !important ;
+        font-size: 22px;
         line-height: 29px;
         font-weight: 700;
         padding-bottom: 5px;
       }
       .awards-card__description {
-        font-size: 19px;
+        font-size: 16px;
         line-height: 32px;
         text-align: justify;
         letter-spacing: 0.03em;
         font-weight: 100;
       }
       .awards-card__header {
-        font-size: 24px !important;
+        font-size: 20px;
         line-height: 29px;
         margin-top: 10px;
       }
@@ -154,20 +150,20 @@ export class Awards extends LitElement {
       }
       .section__sub-header {
         color: var(--color-primary);
-        font-size: 24px !important ;
+        font-size: 22px;
         line-height: 29px;
         font-weight: 700;
         padding-bottom: 5px;
       }
       .awards-card__description {
-        font-size: 19px;
+        font-size: 16px;
         line-height: 32px;
         text-align: justify;
         letter-spacing: 0.03em;
         font-weight: 100;
       }
       .awards-card__header {
-        font-size: 24px !important;
+        font-size: 20px;
         line-height: 29px;
         margin-top: 10px;
       }
@@ -183,7 +179,7 @@ export class Awards extends LitElement {
     return html` <landing-general page="Awards"></landing-general>
       <section class="awards-section">
         <div class="awards-section-area-box">
-          <h3 class="section__sub-header">Lorem Ipsum</h3>
+          <h3 class="section__sub-header">Our Awards</h3>
           <h1 class="section__header">Lorem ipsum dolor sit amet</h1>
           <div class="awards-section__card-section">
             <div class="awards-card">
