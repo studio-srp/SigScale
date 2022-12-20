@@ -270,6 +270,10 @@ export class Solutions extends LitElement {
         line-height: 29px;
         font-weight: 700;
       }
+
+      .solutions-right {
+        width: 100%;
+      }
     }
 
     .solutions-area-box {

@@ -77,7 +77,7 @@ export class ContactForm extends LitElement {
       border: none;
       border-radius: 15px;
       border-left: var(--color-primary) 4px solid;
-      box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.05);
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 20px 6px;
       font-size: 14px;
       font-family: "sf-pro-text", sans-serif;
       margin-bottom: 40px;
@@ -96,7 +96,7 @@ export class ContactForm extends LitElement {
       border: none;
       border-radius: 15px;
       border-left: var(--color-primary) 4px solid;
-      box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.05);
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 20px 6px;
       font-size: 14px;
       font-family: "sf-pro-text", sans-serif;
       resize: none;

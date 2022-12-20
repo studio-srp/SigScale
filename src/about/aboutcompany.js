@@ -188,8 +188,6 @@ export class AboutCompany extends LitElement {
 
     @media (max-width: 576px) {
       .about-company-right {
-        /* width: auto !important; */
-        /* width: calc(100vh - 4rem) !important; */
         width: calc(100vw-4rem);
       }
 

@@ -10,7 +10,6 @@ export class WhyUs extends LitElement {
       max-width: 1400px;
       /* gap: 40px; */
       margin: 3rem auto;
-     
     }
 
     @media (min-width: 1200px) {
@@ -48,7 +47,7 @@ export class WhyUs extends LitElement {
       align-items: center;
       font-family: "sf-pro-text", sans-serif;
       /* gap: 3rem; */
-     /* scroll-snap-align: start; */
+      /* scroll-snap-align: start; */
     }
 
     .overlay {
@@ -144,7 +143,7 @@ export class WhyUs extends LitElement {
     .content-box__header {
       font-size: 20px;
       /* line-height: 29px; */
-      
+
       margin-bottom: 5px;
     }
 
@@ -235,26 +234,30 @@ export class WhyUs extends LitElement {
       }
     }
     @media (max-width: 576px) {
-
       .why-us-left__sub-heading {
         font-size: 24px !important ;
- line-height: 29px;
- font-weight: 700;
-    .why-us-left__heading {
+        line-height: 29px;
+        font-weight: 700;
+      }
+      .why-us-left__heading {
         font-size: 27px !important ;
- line-height: 29px;
- font-weight: 700;
-    }
+        line-height: 29px;
+        font-weight: 700;
+      }
       .content-box__header {
-        font-size: 27px !important ;
- line-height: 29px;
- font-weight: 700;
-    }
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 700;
+      }
 
-    .content-box__description {
-        font-size: 19px;
- line-height: 32px;
-    }
+      .content-box__description {
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      .why-us-right__content-box {
+        width: 100% !important;
+      }
     }
   `;
 
