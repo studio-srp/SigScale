@@ -188,10 +188,17 @@ export class AboutCompany extends LitElement {
 
     @media (max-width: 576px) {
       .about-company-right {
-        width: 100%;
-        margin: auto;
-        /* padding-left: 3rem !important ;
-        padding-right: 3rem !important ; */
+        /* width: auto !important; */
+        /* width: calc(100vh - 4rem) !important; */
+        width: calc(100vw-4rem);
+      }
+
+      .about-area-box {
+        display: block;
+      }
+
+      .about-company {
+        display: block;
       }
 
       .about-company-right__sub-heading {
@@ -242,8 +249,8 @@ export class AboutCompany extends LitElement {
       </button>`;
       paragraph = html` <p class="about-company-right__description">
         This is vision. Our core competency is in signaling and distributed fault tolerant systems.
-        We have developed our own protocol stacks (SIGTRAN,TCAP,CAP,MAP,NGAP,RADIUS,EAP) in Erlang,
-        allowing us to build microservices with very low footprint and massive scalability.
+        We have developed our own protocol stacks (SIGTRAN, TCAP, CAP, MAP, NGAP, RADIUS, EAP) in
+        Erlang, allowing us to build microservices with very low footprint and massive scalability.
       </p>`;
     } else {
       visionButton = html`<button class="vision-btn btn-cta" @click=${this.visionHandler}>
@@ -252,8 +259,8 @@ export class AboutCompany extends LitElement {
       missionButton = html` <button class="vision-btn">Mission</button>`;
       paragraph = html` <p class="about-company-right__description">
         This is mission. Our core competency is in signaling and distributed fault tolerant systems.
-        We have developed our own protocol stacks (SIGTRAN,TCAP,CAP,MAP,NGAP,RADIUS,EAP) in Erlang,
-        allowing us to build microservices with very low footprint and massive scalability.
+        We have developed our own protocol stacks (SIGTRAN, TCAP, CAP, MAP, NGAP, RADIUS, EAP) in
+        Erlang, allowing us to build microservices with very low footprint and massive scalability.
       </p>`;
     }
 
@@ -274,12 +281,11 @@ export class AboutCompany extends LitElement {
             </p>
             <p class="about-company-right__description">
               Our core competency is in signaling and distributed fault tolerant systems. We have
-              developed our own protocol stacks (SIGTRAN,TCAP,CAP,MAP,NGAP,RADIUS,EAP) in Erlang,
-              allowing us to build microservices with very low footprint and massive scalability.
+              developed our own protocol stacks (SIGTRAN, TCAP, CAP, MAP, NGAP, RADIUS, EAP) in
+              Erlang, allowing us to build microservices with very low footprint and massive
+              scalability.
             </p>
-
             <div class="about-company-right__btn-complex">${visionButton} ${missionButton}</div>
-
             ${paragraph}
           </div>
         </div>
