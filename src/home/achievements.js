@@ -130,12 +130,14 @@ export class Achievements extends LitElement {
       text-decoration: none;
       background-color: var(--color-primary);
       display: inline-block;
-      padding: 15px 20px;
       font-family: "sf-pro-text", sans-serif;
       color: white;
+      /* line-height: 32px; */
+      text-transform: uppercase;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      padding: 0.7rem 1.4rem;
       border-radius: 5px;
-      font-size: 19px;
-      line-height: 32px;
     }
 
     .view-more__wrap {

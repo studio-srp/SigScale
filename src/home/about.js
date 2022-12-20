@@ -143,21 +143,23 @@ export class About extends LitElement {
     .about-right__intro-video {
       display: inline-block;
       margin-left: 100px;
-      width: 170px;
+      width: 185px;
       text-decoration: none;
       color: white;
       margin-top: 30px;
     }
 
     .about-right__intro-video__content {
-      font-size: 19px; // 16
-      line-height: 32px;
+      align-items: center;
       display: flex;
       background-color: var(--color-primary);
-      padding: 16px 15px;
-      border-radius: 5px;
       justify-content: space-between;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      text-transform: uppercase;
+      font-size: 1rem;
+      /* letter-spacing: 3px; */
+      padding: 0.7rem 1.4rem;
+      border-radius: 5px;
     }
 
     .about-right {

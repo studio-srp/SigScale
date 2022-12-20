@@ -341,7 +341,7 @@ export class Projects extends LitElement {
               </div>
             </div>
             <div class="projects__card__image">
-              <img src="./assets/images/project-3.png" alt="" />
+              <!-- <img src="./assets/images/project-3.png" alt="" /> -->
             </div>
           </div>
 
