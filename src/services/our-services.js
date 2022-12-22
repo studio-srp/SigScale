@@ -143,9 +143,9 @@ export class OurServices extends LitElement {
 
     @media (max-width: 1200px) {
       .our-services-area-box {
-        padding-left: 5rem !important;
+        padding-left: 5rem;
         max-width: 1140px !important;
-        padding-right: 5rem !important;
+        padding-right: 5rem;
       }
     }
 
@@ -154,7 +154,7 @@ export class OurServices extends LitElement {
         padding-left: 2rem !important;
         padding-right: 2rem !important;
       }
-
+      /* 
       .section__header {
         font-size: 27px !important ;
         line-height: 29px;
@@ -164,7 +164,7 @@ export class OurServices extends LitElement {
         font-size: 24px !important ;
         line-height: 29px;
         font-weight: 700;
-      }
+      } */
       .our-services__card-description {
         font-size: 16px;
         line-height: 20px;
@@ -186,19 +186,19 @@ export class OurServices extends LitElement {
 
     @media (max-width: 992px) {
       .our-services-area-box {
-        padding-left: 3rem !important;
-        padding-right: 3rem !important;
+        padding-left: 3rem;
+        padding-right: 3rem;
       }
 
       .section__header {
-        font-size: 27px !important ;
-        line-height: 31px !important ;
-        font-weight: 700;
+        /* font-size: 27px !important ; */
+        /* line-height: 31px !important ; */
+        /* font-weight: 700; */
       }
       .section__sub-header {
-        font-size: 24px !important ;
-        line-height: 29px !important ;
-        font-weight: 700;
+        /* font-size: 24px !important ; */
+        /* line-height: 29px !important ; */
+        /* font-weight: 700; */
       }
 
       .our-services__card-header {

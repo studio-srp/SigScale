@@ -117,7 +117,7 @@ export class Projects extends LitElement {
         width: 100%;
       }
 
-      .section__header {
+      /* .section__header {
         text-align: left;
         font-size: 27px !important ;
         line-height: 31px !important ;
@@ -129,7 +129,7 @@ export class Projects extends LitElement {
         font-size: 24px !important ;
         line-height: 29px !important ;
         font-weight: 700;
-      }
+      } */
 
       .projects__card__header {
         font-size: 20px;
@@ -239,7 +239,7 @@ export class Projects extends LitElement {
         padding: 30px 20px;
       }
       .projects-container {
-        padding: 40px 0;
+        padding: 30px 0;
       }
     }
   `;

@@ -234,11 +234,11 @@ export class OurSolutions extends LitElement {
         padding: 30px 0;
       }
       .our-solutions__sub-header {
-        text-align: center;
+        /* text-align: center; */
       }
 
       .our-solutions__header {
-        text-align: center;
+        /* text-align: center; */
       }
 
       .our-solutions__card {

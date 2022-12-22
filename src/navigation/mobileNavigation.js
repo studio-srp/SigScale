@@ -145,7 +145,7 @@ class MobileNavigation extends LitElement {
         }
 
         .nav-mobile__background {
-          height: 3rem;
+          /* height: 3rem;
           width: 3rem;
           border-radius: 50%;
           opacity: 1;
@@ -157,8 +157,57 @@ class MobileNavigation extends LitElement {
           transition: 0.8s transform cubic-bezier(0.83, 0, 0.17, 1);
           background: rgba(0, 0, 0, 0.4);
           backdrop-filter: blur(15px);
-          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+
+          height: 3rem;
+          width: 3rem;
+          border-radius: 50%;
+          opacity: 1;
+          position: absolute;
+          top: -71px;
+          right: 5rem;
+          z-index: 1000;
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1);
+          transition: 1s transform ease-in-out;
+          background: rgba(0, 0, 0, 0.8);
         }
+
+        /* if backdrop support: very transparent and blurred */
+        @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+          .nav-mobile__background {
+            background: rgba(0, 0, 0, 0.4);
+            -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(15px);
+            -webkit-box-shadow: rgba(31, 38, 135, 0.37) 0px 8px 32px 0px;
+            box-shadow: rgba(31, 38, 135, 0.37) 0px 8px 32px 0px;
+          }
+        }
+
+        /* 
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        opacity: 1;
+        position: absolute;
+        top: -71px;
+        right: 5rem;
+        z-index: 1000;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.83, 0, 0.17, 1) 0s;
+        transition: -webkit-transform 0.8s cubic-bezier(0.83, 0, 0.17, 1) 0s;
+        -o-transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1) 0s;
+        transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1) 0s;
+        transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1) 0s,
+          -webkit-transform 0.8s cubic-bezier(0.83, 0, 0.17, 1) 0s;
+        background: rgba(0, 0, 0, 0.4);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        -webkit-box-shadow: rgba(31, 38, 135, 0.37) 0px 8px 32px 0px;
+        box-shadow: rgba(31, 38, 135, 0.37) 0px 8px 32px 0px; */
 
         .nav-mobile__checkbox:checked ~ body {
           overflow: hidden;

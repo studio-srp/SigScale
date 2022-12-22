@@ -24,6 +24,7 @@ export class ContactInfo extends LitElement {
       font-weight: 700;
       letter-spacing: 0.15em;
       margin-bottom: 5px;
+      margin-top: 22px;
     }
 
     .section__header {

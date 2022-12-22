@@ -128,8 +128,8 @@ export class Services extends LitElement {
     }
     @media (max-width: 992px) {
       .content-area-box {
-        padding-left: 3rem !important;
-        padding-right: 3rem !important;
+        padding-left: 3rem;
+        padding-right: 3rem;
       }
       .landing-banner__content {
         position: absolute;
