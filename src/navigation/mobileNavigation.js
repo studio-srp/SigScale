@@ -171,30 +171,6 @@ class MobileNavigation extends LitElement {
           }
         } */
 
-        /* 
-        height: 3rem;
-        width: 3rem;
-        border-radius: 50%;
-        opacity: 1;
-        position: absolute;
-        top: -71px;
-        right: 5rem;
-        z-index: 1000;
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1);
-        -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.83, 0, 0.17, 1) 0s;
-        transition: -webkit-transform 0.8s cubic-bezier(0.83, 0, 0.17, 1) 0s;
-        -o-transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1) 0s;
-        transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1) 0s;
-        transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1) 0s,
-          -webkit-transform 0.8s cubic-bezier(0.83, 0, 0.17, 1) 0s;
-        background: rgba(0, 0, 0, 0.4);
-        -webkit-backdrop-filter: blur(15px);
-        backdrop-filter: blur(15px);
-        -webkit-box-shadow: rgba(31, 38, 135, 0.37) 0px 8px 32px 0px;
-        box-shadow: rgba(31, 38, 135, 0.37) 0px 8px 32px 0px; */
-
         .nav-mobile__checkbox:checked ~ body {
           overflow: hidden;
         }
