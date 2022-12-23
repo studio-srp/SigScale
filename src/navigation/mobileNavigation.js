@@ -145,20 +145,6 @@ class MobileNavigation extends LitElement {
         }
 
         .nav-mobile__background {
-          /* height: 3rem;
-          width: 3rem;
-          border-radius: 50%;
-          opacity: 1;
-          position: absolute;
-          top: -71px;
-          right: 5rem;
-          z-index: 1000;
-          transform: scale(1);
-          transition: 0.8s transform cubic-bezier(0.83, 0, 0.17, 1);
-          background: rgba(0, 0, 0, 0.4);
-          backdrop-filter: blur(15px);
-          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
-
           height: 3rem;
           width: 3rem;
           border-radius: 50%;
@@ -171,11 +157,11 @@ class MobileNavigation extends LitElement {
           -ms-transform: scale(1);
           transform: scale(1);
           transition: 1s transform ease-in-out;
-          background: rgba(0, 0, 0, 0.8);
+          background-image: radial-gradient(#ffc444, var(--color-primary));
         }
 
         /* if backdrop support: very transparent and blurred */
-        @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+        /* @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
           .nav-mobile__background {
             background: rgba(0, 0, 0, 0.4);
             -webkit-backdrop-filter: blur(12px);
@@ -183,7 +169,7 @@ class MobileNavigation extends LitElement {
             -webkit-box-shadow: rgba(31, 38, 135, 0.37) 0px 8px 32px 0px;
             box-shadow: rgba(31, 38, 135, 0.37) 0px 8px 32px 0px;
           }
-        }
+        } */
 
         /* 
         height: 3rem;
@@ -247,7 +233,7 @@ class MobileNavigation extends LitElement {
           display: inline-block;
           text-decoration: none;
           text-transform: uppercase;
-          color: white;
+          color: black;
           font-size: 20px;
           padding: 1rem 3rem;
           background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
