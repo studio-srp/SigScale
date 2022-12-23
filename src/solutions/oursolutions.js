@@ -288,9 +288,7 @@ export class OurSolutions extends LitElement {
                 </p>
               </div>
               <div>
-                <a href="/solutions-detailed.html" class="our-solutions__card-link"
-                  >Read more &#10148;</a
-                >
+                <a href="/solutions-details" class="our-solutions__card-link">Read more &#10148;</a>
               </div>
             </div>
             <div class="our-solutions__card">
@@ -305,9 +303,7 @@ export class OurSolutions extends LitElement {
                   used standalone with EAP-AKA' authentication of USIMs.
                 </p>
               </div>
-              <a href="/solutions-detailed.html" class="our-solutions__card-link"
-                >Read more &#10148;</a
-              >
+              <a href="/solutions-details" class="our-solutions__card-link">Read more &#10148;</a>
             </div>
             <div class="our-solutions__card">
               <div>
@@ -323,9 +319,7 @@ export class OurSolutions extends LitElement {
                   mobile services offered to subscribers.
                 </p>
               </div>
-              <a href="/solutions-detailed.html" class="our-solutions__card-link"
-                >Read more &#10148;</a
-              >
+              <a href="/solutions-details" class="our-solutions__card-link">Read more &#10148;</a>
             </div>
             <div class="our-solutions__card">
               <div>
@@ -339,9 +333,7 @@ export class OurSolutions extends LitElement {
                   administrative domains.
                 </p>
               </div>
-              <a href="/solutions-detailed.html" class="our-solutions__card-link"
-                >Read more &#10148;</a
-              >
+              <a href="/solutions-details" class="our-solutions__card-link">Read more &#10148;</a>
             </div>
             <div class="our-solutions__card">
               <div>
@@ -355,9 +347,7 @@ export class OurSolutions extends LitElement {
                   (GT).Use cases include MVNO/MNO gateways and internal load balancing
                 </p>
               </div>
-              <a href="/solutions-detailed.html" class="our-solutions__card-link"
-                >Read more &#10148;</a
-              >
+              <a href="/solutions-details" class="our-solutions__card-link">Read more &#10148;</a>
             </div>
 
             <div class="our-solutions__card">
@@ -374,9 +364,7 @@ export class OurSolutions extends LitElement {
                   VES collector or ONAP DCAE.
                 </p>
               </div>
-              <a href="/solutions-detailed.html" class="our-solutions__card-link"
-                >Read more &#10148;</a
-              >
+              <a href="/solutions-details" class="our-solutions__card-link">Read more &#10148;</a>
             </div>
             <div class="our-solutions__card">
               <div>
@@ -391,9 +379,7 @@ export class OurSolutions extends LitElement {
                   Element Management Systems (EMS) use an SNMP solution set.
                 </p>
               </div>
-              <a href="/solutions-detailed.html" class="our-solutions__card-link"
-                >Read more &#10148;</a
-              >
+              <a href="/solutions-details" class="our-solutions__card-link">Read more &#10148;</a>
             </div>
 
             <div class="our-solutions__card">
@@ -412,9 +398,7 @@ export class OurSolutions extends LitElement {
                   reporting and analystics.
                 </p>
               </div>
-              <a href="/solutions-detailed.html" class="our-solutions__card-link"
-                >Read more &#10148;</a
-              >
+              <a href="/solutions-details" class="our-solutions__card-link">Read more &#10148;</a>
             </div>
             <div class="our-solutions__card d-hidden"></div>
           </div>

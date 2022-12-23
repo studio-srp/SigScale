@@ -22,7 +22,9 @@ export class Achievements extends LitElement {
                     Awards with champions...
                   </p>
 
-                  <a href="#" class="achievements-card__link margin-top-small">Read More &rarr;</a>
+                  <a href="/awards" class="achievements-card__link margin-top-small"
+                    >Read More &rarr;</a
+                  >
                 </div>
               </div>
               <div class="achievements-card">
@@ -36,7 +38,9 @@ export class Achievements extends LitElement {
                     Awards with champions...
                   </p>
 
-                  <a href="#" class="achievements-card__link margin-top-small">Read More &rarr;</a>
+                  <a href="/awards" class="achievements-card__link margin-top-small"
+                    >Read More &rarr;</a
+                  >
                 </div>
               </div>
               <div class="achievements-card">
@@ -50,12 +54,14 @@ export class Achievements extends LitElement {
                     Awards with champions...
                   </p>
 
-                  <a href="#" class="achievements-card__link margin-top-small">Read More &rarr;</a>
+                  <a href="/awards" class="achievements-card__link margin-top-small"
+                    >Read More &rarr;</a
+                  >
                 </div>
               </div>
             </div>
             <div class="view-more__wrap">
-              <a href="/awards.html" class="view-more">View More</a>
+              <a href="/awards" class="view-more">View More</a>
             </div>
           </div>
         </div>

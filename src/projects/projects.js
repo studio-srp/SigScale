@@ -133,7 +133,7 @@ export class Projects extends LitElement {
       }
 
       .projects__card__description {
-        font-size: 19px !important ;
+        /* font-size: 19px !important ; */
         line-height: 32px;
       }
     }
@@ -185,7 +185,7 @@ export class Projects extends LitElement {
       }
       .projects__card__description {
         /* font-size: 16px; */
-        text-align: justify;
+        /* text-align: justify; */
         letter-spacing: 0.03em;
         font-weight: 100;
       }
@@ -220,9 +220,9 @@ export class Projects extends LitElement {
         padding-bottom: 5px;
       }
       .projects__card__description {
-        font-size: 19px !important ;
+        /* font-size: 19px !important ; */
         line-height: 32px;
-        text-align: justify;
+        /* text-align: justify; */
         letter-spacing: 0.03em;
         font-weight: 100;
       }

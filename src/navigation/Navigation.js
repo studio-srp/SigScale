@@ -13,6 +13,7 @@ class Navigation extends LitElement {
     super();
     this.page = "home";
   }
+
   render() {
     return html`
       <desktop-nav @custom-event=${this._onCustomEvent} activePage=${this.page}></desktop-nav>

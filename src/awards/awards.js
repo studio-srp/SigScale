@@ -119,7 +119,7 @@ export class Awards extends LitElement {
       .awards-card__description {
         font-size: 16px;
         line-height: 32px;
-        text-align: justify;
+        /* text-align: justify; */
         letter-spacing: 0.03em;
         font-weight: 100;
       }
@@ -158,7 +158,7 @@ export class Awards extends LitElement {
       .awards-card__description {
         font-size: 16px;
         line-height: 32px;
-        text-align: justify;
+        /* text-align: justify; */
         letter-spacing: 0.03em;
         font-weight: 100;
       }

@@ -6,11 +6,15 @@ export class Landing extends LitElement {
     page: {
       type: String,
     },
+    subpage: {
+      type: String,
+    },
   };
 
   constructor() {
     super();
     this.page = "";
+    this.subpage = "";
   }
 
   static styles = css`
@@ -137,6 +141,15 @@ export class Landing extends LitElement {
   `;
 
   render() {
+    var element;
+    if (this.subpage != "") {
+      element = html`
+        <span class="landing-banner__divider"></span
+        ><a href="#" class="landing-banner__nav">${this.subpage}</a>
+      `;
+    } else {
+      element = html``;
+    }
     return html`
       <section class="landing-services-banner">
         <div class="content-area-box">
@@ -145,7 +158,7 @@ export class Landing extends LitElement {
             <div class="landing-banner__links">
               <a class="landing-banner__nav" href="#">Home</a
               ><span class="landing-banner__divider"></span
-              ><a href="#" class="landing-banner__nav">${this.page}</a>
+              ><a href="#" class="landing-banner__nav">${this.page}</a>${element}
             </div>
           </div>
         </div>

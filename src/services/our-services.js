@@ -168,7 +168,7 @@ export class OurServices extends LitElement {
       .our-services__card-description {
         font-size: 16px;
         line-height: 20px;
-        text-align: justify;
+        /* text-align: justify; */
         letter-spacing: 0.03em;
         font-weight: 100;
       }
@@ -207,7 +207,7 @@ export class OurServices extends LitElement {
       }
       .our-services__card-description {
         font-size: 16px;
-        text-align: justify;
+        /* text-align: justify; */
         letter-spacing: 0.03em;
         font-weight: 100;
       }

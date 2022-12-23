@@ -63,10 +63,13 @@ export class ContactInfo extends LitElement {
     .contact-info__card-description {
       font-size: 16px !important ;
       line-height: 32px !important ;
-      color: var(--color-description);
+      /* color: var(--color-description); */
       margin-bottom: 15px;
     }
 
+    .contact-info__card-description > a {
+      color: var(--color-primary);
+    }
     .contact-info__card-links {
       display: flex;
       margin-top: 10px;
@@ -103,11 +106,14 @@ export class ContactInfo extends LitElement {
         line-height: 29px;
       }
       .contact-info__card-description {
-        font-size: 19px !important ;
+        /* font-size: 19px !important ; */
+        font-size: 16px;
         line-height: 32px;
       }
       .contact-info__card-links > p {
-        font-size: 19px !important ;
+        /* font-size: 19px !important ; */
+        font-size: 16px;
+
         line-height: 32px;
       }
     }
@@ -128,11 +134,14 @@ export class ContactInfo extends LitElement {
         line-height: 29px;
       }
       .contact-info__card-description {
-        font-size: 19px !important ;
+        /* font-size: 19px !important ; */
+        font-size: 16px;
         line-height: 32px;
       }
       .contact-info__card-links > p {
-        font-size: 19px !important ;
+        /* font-size: 19px !important ;
+         */
+        font-size: 16px;
         line-height: 32px;
       }
     }

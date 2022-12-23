@@ -16,7 +16,9 @@ export class Solutions extends LitElement {
             <h2 class="solutions-left__header">
               We deliver solutions with the goal of trusting workships
             </h2>
-            <a class="cta-btn__primary margin-top-medium cta-desktop">Explore more</a>
+            <a class="cta-btn__primary margin-top-medium cta-desktop" href="/solutions"
+              >Explore more</a
+            >
           </div>
           <div class="solutions-right">
             <div class="solutions-right__card-section">
@@ -72,7 +74,7 @@ export class Solutions extends LitElement {
             </div>
           </div>
 
-          <a class="cta-btn__primary margin-top-large cta-mobile">Explore more</a>
+          <a class="cta-btn__primary margin-top-large cta-mobile" href="/solutions">Explore more</a>
         </div>
 
         <img src=${imageBackground} alt="image background" class="image-background-solutions" />
@@ -179,6 +181,7 @@ export class Solutions extends LitElement {
       border-radius: 5px;
       border: var(--color-primary) 1px solid;
       transition: 0.2s all ease-in;
+      text-decoration: none;
     }
 
     .cta-btn__primary:hover {

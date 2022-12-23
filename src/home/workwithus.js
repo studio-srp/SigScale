@@ -15,7 +15,7 @@ export class WorkWithUs extends LitElement {
             consectetur voluptatem accusantium doloremque adipiscing elit.
           </p>
 
-          <a class="cta-btn__primary margin-top-medium">Contact Us</a>
+          <a class="cta-btn__primary margin-top-medium" href="/contacts">Contact Us</a>
         </div>
         <img src=${backgroundImage} alt="background image" class="background-image" />
       </section>
@@ -57,6 +57,7 @@ export class WorkWithUs extends LitElement {
       border-radius: 5px;
       border: var(--color-primary) 1px solid;
       transition: 0.2s all ease-in;
+      text-decoration: none;
     }
 
     .cta-btn__primary:hover {
