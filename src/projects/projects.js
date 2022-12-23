@@ -287,9 +287,9 @@ export class Projects extends LitElement {
                 >Source Code Repository | Wiki</a
               >
             </div>
-            <!-- <div class="projects__card__image-area">
+            <div class="projects__card__image-area">
               <img src=${projectImg2} alt="" class="projects__card__image" />
-            </div> -->
+            </div>
           </div>
 
           <div class="projects__card-section">
