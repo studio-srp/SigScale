@@ -1,6 +1,6 @@
 import { LitElement, css, html } from "lit";
 
-import "./navigation/navigation.js";
+// import "./navigation/navigation.js";
 import "./app-content.js";
 import "./footer/footer.js";
 
