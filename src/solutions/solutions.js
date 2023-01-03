@@ -1,5 +1,5 @@
 import { LitElement, css, html } from "lit";
-import "./../Landing/Landing.js";
+import "./../Landing/landing.js";
 import "./oursolutions.js";
 import "./../footer/footer.js";
 

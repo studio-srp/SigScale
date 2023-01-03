@@ -1,9 +1,13 @@
 import { css, html, LitElement } from "lit";
+import { Router } from "@vaadin/router";
 import awards1 from "./../assets/images/awards-1.png";
 import awards2 from "./../assets/images/awards-2.png";
 import awards3 from "./../assets/images/awards-3.png";
 
 export class Achievements extends LitElement {
+  handleClick() {
+    Router.go("/awards");
+  }
   render() {
     return html`
       <section class="achievements">
@@ -38,7 +42,8 @@ export class Achievements extends LitElement {
                     Awards with champions...
                   </p>
 
-                  <a href="/awards" class="achievements-card__link margin-top-small"
+                  <!-- href="/awards" -->
+                  <a @click=${this.handleClick} class="achievements-card__link margin-top-small"
                     >Read More &rarr;</a
                   >
                 </div>
