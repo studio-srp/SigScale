@@ -1,5 +1,5 @@
 import { LitElement, css, html } from "lit";
-import "./../Landing/landing.js";
+import "./../landing/landing.js";
 import image from "./../assets/images/Solutions_detailed_post.png";
 
 class SolutionsDetails extends LitElement {
